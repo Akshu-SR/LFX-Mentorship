@@ -1,17 +1,18 @@
 // See README.md for license details.
 
-ThisBuild / scalaVersion     := "2.13.16"
+ThisBuild / scalaVersion     := "2.13.10"
 ThisBuild / version          := "0.1.0"
-ThisBuild / organization     := "com.github.5hayanb"
+ThisBuild / organization     := "com.github.merledu"
 
-val chiselVersion = "7.0.0-RC1"
+val chiselVersion = "3.5.5"
 
 lazy val root = (project in file("."))
   .settings(
-    name := "temp",
+    name := "LFX-2025",
     libraryDependencies ++= Seq(
-      "org.chipsalliance" %% "chisel" % chiselVersion,
-      "org.scalatest" %% "scalatest" % "3.2.19" % "test",
+      "edu.berkeley.cs" %% "chisel3" % chiselVersion,
+      "edu.berkeley.cs" %% "chiseltest" % "0.5.6" % "test",
+      "org.scalatest" %% "scalatest" % "3.2.0" % "test",
     ),
     scalacOptions ++= Seq(
       "-language:reflectiveCalls",
@@ -20,5 +21,5 @@ lazy val root = (project in file("."))
       "-Xcheckinit",
       "-Ymacro-annotations",
     ),
-    addCompilerPlugin("org.chipsalliance" % "chisel-plugin" % chiselVersion cross CrossVersion.full),
+    addCompilerPlugin("edu.berkeley.cs" % "chisel3-plugin" % chiselVersion cross CrossVersion.full),
   )

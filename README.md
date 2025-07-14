@@ -1,112 +1,40 @@
-Chisel Project Template
+LFX Mentorship Fall 2025 Coding Challenge
 =======================
 
-You've done the [Chisel Bootcamp](https://github.com/freechipsproject/chisel-bootcamp), and now you
-are ready to start your own Chisel project.  The following procedure should get you started
-with a clean running [Chisel3](https://www.chisel-lang.org/) project.
+## Overview
 
-## Make your own Chisel3 project
+The aim of this coding challenge is to create a hardware stack module which has the ability to push, pop and peek according to a given instruction. In order to attempt the coding challenge, fork this branch of the repository and attempt the challenge. Upon completion, create a PDF file consisting of the link to your fork, the code (with the mention of file name) you have written and the output you recieved.
 
-### Dependencies
+## Stack Module
 
-#### JDK 11 or newer
+The `StackModule` is the name of the hardware stack to be implemented. This main module must be written in `src/main/scala/stack/StackModule.scala`.
 
-We recommend using Java 11 or later LTS releases. While Chisel itself works with Java 8, our preferred build tool Mill requires Java 11. You can install the JDK as your operating system recommends, or use the prebuilt binaries from [Adoptium](https://adoptium.net/) (formerly AdoptOpenJDK).
+### Stack Module Interface
 
-#### SBT or mill
+#### Inputs
 
-SBT is the most common build tool in the Scala community. You can download it [here](https://www.scala-sbt.org/download.html).
-Mill is another Scala/Java build tool preferred by Chisel's developers.
-This repository includes a bootstrap script `./mill` so that no installation is necessary.
-You can read more about Mill on its website: https://mill-build.org.
+- **io.in:** A `dataWidth` wide input port. Used to input instructions.
 
-#### Verilator
+#### Outputs
 
-The test with `svsim` needs Verilator installed.
-See Verilator installation instructions [here](https://verilator.org/guide/latest/install.html).
+- **io.out:** A `dataWidth` wide input port. Used to output values from the stack.
+- **io.underflow:** A 1-bit port used to indicate underflow flag of the `pop` and `peek` instructions.
+- **io.overflow:** A 1-bit port used to indicate overflow flag of the `push` instructions.
+- **io.isEmpty:** A 1-bit port used to indicate that the stack is empty.
+- **io.isFull:** A 1-bit port used to indicate that the stack is full.
+- **io.popped:** A 1-bit port used to indicate that the successful popping of a value from the stack.
+- **io.peeked:** A 1-bit port used to indicate that the successful peeking of a value from the stack.
 
-### How to get started
+## Instructions
 
-#### Create a repository from the template
+Based on the following instructions and their encodings, the `StackModule` will perform operations.
 
-This repository is a Github template. You can create your own repository from it by clicking the green `Use this template` in the top right.
-Please leave `Include all branches` **unchecked**; checking it will pollute the history of your new repository.
-For more information, see ["Creating a repository from a template"](https://docs.github.com/en/free-pro-team@latest/github/creating-cloning-and-archiving-repositories/creating-a-repository-from-a-template).
+| instruction | instruction[31:7] (imm[24:0]) | instruction[6:0] (opcode) |
+| - | - | - |
+| push | imm[24:0] | 0100111 |
+| pop | 0000000000000000000000000 | 1000011 |
+| peek | 0000000000000000000000000 | 1000000 |
 
-#### Wait for the template cleanup workflow to complete
-
-After using the template to create your own blank project, please wait a minute or two for the `Template cleanup` workflow to run which will removes some template-specific stuff from the repository (like the LICENSE).
-Refresh the repository page in your browser until you see a 2nd commit by `actions-user` titled `Template cleanup`.
-
-
-#### Clone your repository
-
-Once you have created a repository from this template and the `Template cleanup` workflow has completed, you can click the green button to get a link for cloning your repository.
-Note that it is easiest to push to a repository if you set up SSH with Github, please see the [related documentation](https://docs.github.com/en/free-pro-team@latest/github/authenticating-to-github/connecting-to-github-with-ssh). SSH is required for pushing to a Github repository when using two-factor authentication.
-
-```sh
-git clone git@github.com:5hayanB/temp.git
-cd temp
-```
-
-#### Set project organization and name in build.sbt
-
-The cleanup workflow will have attempted to provide sensible defaults for `ThisBuild / organization` and `name` in the `build.sbt`.
-Feel free to use your text editor of choice to change them as you see fit.
-
-#### Clean up the README.md file
-
-Again, use you editor of choice to make the README specific to your project.
-
-#### Add a LICENSE file
-
-It is important to have a LICENSE for open source (or closed source) code.
-This template repository has the Unlicense in order to allow users to add any license they want to derivative code.
-The Unlicense is stripped when creating a repository from this template so that users do not accidentally unlicense their own work.
-
-For more information about a license, check out the [Github Docs](https://docs.github.com/en/free-pro-team@latest/github/building-a-strong-community/adding-a-license-to-a-repository).
-
-#### Commit your changes
-```sh
-git commit -m 'Starting temp'
-git push origin main
-```
-
-### Did it work?
-
-You should now have a working Chisel3 project.
-
-You can run the included test with:
-```sh
-sbt test
-```
-
-Alternatively, if you use Mill:
-```sh
-./mill temp.test
-```
-
-You should see a whole bunch of output that ends with something like the following lines
-```
-[info] Tests: succeeded 1, failed 0, canceled 0, ignored 0, pending 0
-[info] All tests passed.
-[success] Total time: 5 s, completed Dec 16, 2020 12:18:44 PM
-```
-If you see the above then...
-
-### It worked!
-
-You are ready to go. We have a few recommended practices and things to do.
-
-* Use packages and following conventions for [structure](https://www.scala-sbt.org/1.x/docs/Directories.html) and [naming](http://docs.scala-lang.org/style/naming-conventions.html)
-* Package names should be clearly reflected in the testing hierarchy
-* Build tests for all your work
-* Read more about testing in SBT in the [SBT docs](https://www.scala-sbt.org/1.x/docs/Testing.html)
-* This template includes a [test dependency](https://www.scala-sbt.org/1.x/docs/Library-Dependencies.html#Per-configuration+dependencies) on [ScalaTest](https://www.scalatest.org/). This, coupled with `svsim` (included with Chisel) and `verilator`, are a starting point for testing Chisel generators.
-  * You can remove this dependency in the build.sbt file if you want to
-* Change the name of your project in the build.sbt file
-* Change your README.md
-
-## Problems? Questions?
-
-Check out the [Chisel Users Community](https://www.chisel-lang.org/community.html) page for links to get in contact!
+- **push:** The push instruction inserts the `dataWidth`-bit zero-extended immediate to the stack. The `io.isFull` output is asserted when the stack becomes full. If the stack is already full, `io.overflow` will be asserted.
+- **pop:** The pop instruction removes the `dataWidth`-bit value from the top of the stack and sends it to `io.out` while also asserting `io.popped`. `io.isEmpty` is asserted if the stack becomes empty. If the stack is already empty, `io.underflow` will be asserted and the value 0 will be read..
+- **peek:** The peek instruction reads the `dataWidth`-bit value from the top of the stack and sends it to `io.out` while also asserting `io.peeked`. If the stack is already empty, `io.underflow` will be asserted and the value 0 will be read.
