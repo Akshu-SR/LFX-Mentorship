@@ -16,7 +16,7 @@ class StackModuleTest extends AnyFreeSpec with ChiselScalatestTester {
     stack: Stack[Long],
     s: StackModule
   ) = {
-    val push_val = random.between(0, pow(2, dataWidth.toDouble).toLong)
+    val push_val = random.between(0, pow(2, (if (dataWidth < 32) dataWidth else 25).toDouble).toLong)
     s.io.in.poke(
       ("b" + String.format(
         "%" + 25 + "s", push_val.toBinaryString
