@@ -7,7 +7,9 @@ The aim of this coding challenge is to create a hardware stack module which has 
 
 ## Stack Module
 
-The `StackModule` is the name of the hardware stack to be implemented. This main module must be written in `src/main/scala/stack/StackModule.scala`.
+The `StackModule` is the name of the hardware stack to be implemented. This main module must be written in `src/main/scala/stack/StackModule.scala`. The `StackModule` must be parameterized with the following parameters.
+- **dataWidth:** The bitwidth of a single element to be stored in the stack.
+- **len:** The length of the stack.
 
 ### Stack Module Interface
 

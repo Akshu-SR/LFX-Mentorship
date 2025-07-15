@@ -102,8 +102,8 @@ class StackModuleTest extends AnyFreeSpec with ChiselScalatestTester {
       val len = random.between(1, 1025)
       val stack = new Stack[Long]
       test(new StackModule(
-        DataWidth = dataWidth,
-        Len = len
+        dataWidth = dataWidth,
+        len = len
       )) {
         s =>
           stack.clear()
