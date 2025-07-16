@@ -40,3 +40,16 @@ Based on the following instructions and their encodings, the `StackModule` will 
 - **push:** The push instruction inserts the `dataWidth`-bit zero-extended immediate to the stack. The `io.isFull` output is asserted when the stack becomes full. If the stack is already full, `io.overflow` will be asserted.
 - **pop:** The pop instruction removes the `dataWidth`-bit value from the top of the stack and sends it to `io.out` while also asserting `io.popped`. `io.isEmpty` is asserted if the stack becomes empty. If the stack is already empty, `io.underflow` will be asserted and the value 0 will be read..
 - **peek:** The peek instruction reads the `dataWidth`-bit value from the top of the stack and sends it to `io.out` while also asserting `io.peeked`. If the stack is already empty, `io.underflow` will be asserted and the value 0 will be read.
+
+## Run Tests
+
+In order to run tests, you need to have `cocotb` and `bitstring` installed.
+```sh
+pip install 'cocotb~=1.9'
+pip install bitstring
+```
+
+To simulate and run the tests on your DUT, run:
+```sh
+python3 run_tests.py
+```

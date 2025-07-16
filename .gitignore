@@ -343,3 +343,7 @@ hs_err_pid*
 .bloop/
 .scala-build/
 metals.sbt
+__pycache__/
+dump.vcd
+results.xml
+sim_build/
