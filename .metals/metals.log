@@ -1,0 +1,736 @@
+2025.08.09 16:44:20 INFO  Started: Metals version 1.6.1 in folders 'C:\Users\Admin\LFX-Mentorship' for client Visual Studio Code 1.103.0.
+2025.08.09 16:44:20 INFO  no build target found for C:\Users\Admin\LFX-Mentorship\LFX-Mentorship\build.sbt. Using presentation compiler with project's scala-library version: 3.3.6
+2025.08.09 16:44:31 INFO  no build target found for C:\Users\Admin\LFX-Mentorship\LFX-Mentorship\build.sbt. Using presentation compiler with project's scala-library version: 3.3.6
+2025.08.09 16:44:54 WARN  no build target for: C:\Users\Admin\LFX-Mentorship\LFX-Mentorship\build.sbt
+2025.08.09 16:44:54 INFO  no build target found for C:\Users\Admin\LFX-Mentorship\LFX-Mentorship\build.sbt. Using presentation compiler with project's scala-library version: 3.3.6
+2025.08.09 16:44:54 INFO  no build target found for C:\Users\Admin\LFX-Mentorship\LFX-Mentorship\build.sbt. Using presentation compiler with project's scala-library version: 3.3.6
+2025.08.09 16:48:01 INFO  running 'C:\Program Files\Eclipse Adoptium\jdk-21.0.8.9-hotspot\bin\java.exe -Djline.terminal=jline.UnsupportedTerminal -Dsbt.log.noformat=true -Dfile.encoding=UTF-8 -jar C:\Users\Admin\AppData\Local\Temp\metals11319362833848898155\sbt-launch.jar -Dbloop.export-jar-classifiers=sources bloopInstall'
+2025.08.09 16:48:01 ERROR [info] [launcher] getting org.scala-sbt sbt 1.9.7  (this may take some time)...
+2025.08.09 16:48:25 ERROR [info] [launcher] getting Scala 2.12.18 (for sbt)...
+2025.08.09 16:48:27 INFO  [info] welcome to sbt 1.9.7 (Eclipse Adoptium Java 21.0.8)
+2025.08.09 16:48:29 INFO  [info] loading settings for project lfx-mentorship-build-build-build from metals.sbt ...
+2025.08.09 16:48:29 INFO  [info] loading project definition from C:\Users\Admin\LFX-Mentorship\LFX-Mentorship\project\project\project
+2025.08.09 16:48:35 INFO  [info] loading settings for project lfx-mentorship-build-build from metals.sbt ...
+2025.08.09 16:48:35 INFO  [info] loading project definition from C:\Users\Admin\LFX-Mentorship\LFX-Mentorship\project\project
+2025.08.09 16:48:42 INFO  [success] Generated .bloop\lfx-mentorship-build-build.json
+2025.08.09 16:48:42 INFO  [success] Total time: 7 s, completed Aug 9, 2025, 4:48:42 PM
+2025.08.09 16:48:42 INFO  [info] loading settings for project lfx-mentorship-build from metals.sbt,plugins.sbt ...
+2025.08.09 16:48:42 INFO  [info] loading project definition from C:\Users\Admin\LFX-Mentorship\LFX-Mentorship\project
+2025.08.09 16:48:45 INFO  [success] Total time: 1 s, completed Aug 9, 2025, 4:48:45 PM
+2025.08.09 16:48:46 INFO  [info] loading settings for project root from build.sbt ...
+2025.08.09 16:48:46 INFO  [info] set current project to LFX-2025 (in build file:/C:/Users/Admin/LFX-Mentorship/LFX-Mentorship/)
+2025.08.09 16:49:09 INFO  [success] Generated .bloop\root-test.json
+2025.08.09 16:49:09 INFO  [success] Generated .bloop\root.json
+2025.08.09 16:49:09 INFO  [success] Total time: 23 s, completed Aug 9, 2025, 4:49:09 PM
+2025.08.09 16:49:09 INFO  time: ran 'sbt bloopInstall' in 1m8s
+2025.08.09 16:49:09 INFO  Attempting to connect to the build server...
+2025.08.09 16:49:09 INFO  No running Bloop server found, starting one.
+2025.08.09 16:49:33 INFO  Starting compilation server
+2025.08.09 16:49:34 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at C:\Users\Admin\LFX-Mentorship\.metals\bsp.trace.json or C:\Users\Admin\AppData\Local\scalameta\metals\cache\bsp.trace.json
+2025.08.09 16:49:43 INFO  time: Connected to build server in 33s
+2025.08.09 16:49:43 INFO  Connected to Build server: Bloop v2.0.12
+2025.08.09 16:49:43 INFO  time: Imported build in 0.13s
+2025.08.09 16:49:43 WARN  2.13.10 is no longer supported in the current Metals versions, using the last known supported version 1.3.3
+2025.08.09 16:50:06 INFO  time: indexed workspace in 23s
+2025.08.09 16:50:06 WARN  no build target for: C:\Users\Admin\LFX-Mentorship\LFX-Mentorship\build.sbt
+2025.08.09 16:50:06 INFO  no build target found for C:\Users\Admin\LFX-Mentorship\LFX-Mentorship\build.sbt. Using presentation compiler with project's scala-library version: 2.13.16
+2025.08.09 16:50:06 WARN  no build target for: C:\Users\Admin\LFX-Mentorship\LFX-Mentorship\build.sbt
+2025.08.09 16:50:08 INFO  time: code lens generation in 1.41s
+2025.08.09 16:50:08 INFO  time: code lens generation in 1.41s
+2025.08.09 16:50:30 INFO  no build target found for C:\Users\Admin\LFX-Mentorship\LFX-Mentorship\build.sbt. Using presentation compiler with project's scala-library version: 2.13.16
+2025.08.09 16:50:30 WARN  no build target for: C:\Users\Admin\LFX-Mentorship\LFX-Mentorship\build.sbt
+2025.08.09 16:50:30 INFO  no build target found for C:\Users\Admin\LFX-Mentorship\LFX-Mentorship\build.sbt. Using presentation compiler with project's scala-library version: 2.13.16
+2025.08.09 16:50:31 INFO  no build target found for C:\Users\Admin\LFX-Mentorship\LFX-Mentorship\build.sbt. Using presentation compiler with project's scala-library version: 2.13.16
+2025.08.09 16:50:34 INFO  no build target found for C:\Users\Admin\LFX-Mentorship\LFX-Mentorship\build.sbt. Using presentation compiler with project's scala-library version: 2.13.16
+2025.08.09 16:50:36 INFO  no build target found for C:\Users\Admin\LFX-Mentorship\LFX-Mentorship\build.sbt. Using presentation compiler with project's scala-library version: 2.13.16
+2025.08.09 16:50:36 INFO  no build target found for C:\Users\Admin\LFX-Mentorship\LFX-Mentorship\build.sbt. Using presentation compiler with project's scala-library version: 2.13.16
+2025.08.09 16:50:38 INFO  no build target found for C:\Users\Admin\LFX-Mentorship\LFX-Mentorship\build.sbt. Using presentation compiler with project's scala-library version: 2.13.16
+2025.08.09 16:50:38 INFO  no build target found for C:\Users\Admin\LFX-Mentorship\LFX-Mentorship\build.sbt. Using presentation compiler with project's scala-library version: 2.13.16
+2025.08.09 16:50:40 INFO  no build target found for C:\Users\Admin\LFX-Mentorship\LFX-Mentorship\build.sbt. Using presentation compiler with project's scala-library version: 2.13.16
+2025.08.09 16:50:41 INFO  no build target found for C:\Users\Admin\LFX-Mentorship\LFX-Mentorship\build.sbt. Using presentation compiler with project's scala-library version: 2.13.16
+2025.08.09 16:50:41 INFO  no build target found for C:\Users\Admin\LFX-Mentorship\LFX-Mentorship\build.sbt. Using presentation compiler with project's scala-library version: 2.13.16
+2025.08.09 16:50:40 INFO  no build target found for C:\Users\Admin\LFX-Mentorship\LFX-Mentorship\build.sbt. Using presentation compiler with project's scala-library version: 2.13.16
+2025.08.09 16:50:43 INFO  no build target found for C:\Users\Admin\LFX-Mentorship\LFX-Mentorship\build.sbt. Using presentation compiler with project's scala-library version: 2.13.16
+2025.08.09 16:50:44 INFO  no build target found for C:\Users\Admin\LFX-Mentorship\LFX-Mentorship\build.sbt. Using presentation compiler with project's scala-library version: 2.13.16
+2025.08.09 16:50:45 INFO  no build target found for C:\Users\Admin\LFX-Mentorship\LFX-Mentorship\build.sbt. Using presentation compiler with project's scala-library version: 2.13.16
+2025.08.09 16:50:45 INFO  no build target found for C:\Users\Admin\LFX-Mentorship\LFX-Mentorship\build.sbt. Using presentation compiler with project's scala-library version: 2.13.16
+2025.08.09 16:50:46 INFO  no build target found for C:\Users\Admin\LFX-Mentorship\LFX-Mentorship\build.sbt. Using presentation compiler with project's scala-library version: 2.13.16
+2025.08.09 16:50:46 INFO  Created report: Optional[file:///C:/Users/Admin/LFX-Mentorship/LFX-Mentorship/build.sbt]
+2025.08.09 16:50:46 INFO  empty definition using pc, found symbol in pc:  (full report at: "C:\Users\Admin\LFX-Mentorship\.metals\.reports\metals-full\2025-08-09\r_empty-definition_16-50-46-476.md")
+2025.08.09 16:50:46 INFO  no build target found for C:\Users\Admin\LFX-Mentorship\LFX-Mentorship\build.sbt. Using presentation compiler with project's scala-library version: 2.13.16
+2025.08.09 16:50:47 INFO  no build target found for C:\Users\Admin\LFX-Mentorship\LFX-Mentorship\build.sbt. Using presentation compiler with project's scala-library version: 2.13.16
+2025.08.09 16:50:48 INFO  no build target found for C:\Users\Admin\LFX-Mentorship\LFX-Mentorship\build.sbt. Using presentation compiler with project's scala-library version: 2.13.16
+2025.08.09 16:50:48 INFO  no build target found for C:\Users\Admin\LFX-Mentorship\LFX-Mentorship\build.sbt. Using presentation compiler with project's scala-library version: 2.13.16
+2025.08.09 16:50:48 INFO  no build target found for C:\Users\Admin\LFX-Mentorship\LFX-Mentorship\build.sbt. Using presentation compiler with project's scala-library version: 2.13.16
+2025.08.09 16:50:48 INFO  no build target found for C:\Users\Admin\LFX-Mentorship\LFX-Mentorship\build.sbt. Using presentation compiler with project's scala-library version: 2.13.16
+2025.08.09 16:50:49 WARN  no build target for: C:\Users\Admin\LFX-Mentorship\LFX-Mentorship\build.sbt
+2025.08.09 16:50:49 INFO  no build target found for C:\Users\Admin\LFX-Mentorship\LFX-Mentorship\build.sbt. Using presentation compiler with project's scala-library version: 2.13.16
+2025.08.09 16:50:52 INFO  running 'C:\Program Files\Eclipse Adoptium\jdk-21.0.8.9-hotspot\bin\java.exe -Djline.terminal=jline.UnsupportedTerminal -Dsbt.log.noformat=true -Dfile.encoding=UTF-8 -jar C:\Users\Admin\AppData\Local\Temp\metals16776021820803131833\sbt-launch.jar -Dbloop.export-jar-classifiers=sources bloopInstall'
+2025.08.09 16:50:54 INFO  [info] welcome to sbt 1.9.7 (Eclipse Adoptium Java 21.0.8)
+2025.08.09 16:50:54 INFO  [info] loading settings for project lfx-mentorship-build-build-build from metals.sbt ...
+2025.08.09 16:50:55 INFO  [info] loading project definition from C:\Users\Admin\LFX-Mentorship\LFX-Mentorship\project\project\project
+2025.08.09 16:50:55 INFO  [info] loading settings for project lfx-mentorship-build-build from metals.sbt ...
+2025.08.09 16:50:55 INFO  [info] loading project definition from C:\Users\Admin\LFX-Mentorship\LFX-Mentorship\project\project
+2025.08.09 16:50:58 INFO  [success] Generated .bloop\lfx-mentorship-build-build.json
+2025.08.09 16:50:58 INFO  [success] Total time: 2 s, completed Aug 9, 2025, 4:50:58 PM
+2025.08.09 16:50:58 INFO  [info] loading settings for project lfx-mentorship-build from metals.sbt,plugins.sbt ...
+2025.08.09 16:50:58 INFO  [info] loading project definition from C:\Users\Admin\LFX-Mentorship\LFX-Mentorship\project
+2025.08.09 16:50:59 INFO  [success] Total time: 1 s, completed Aug 9, 2025, 4:50:59 PM
+2025.08.09 16:51:01 INFO  [info] loading settings for project root from build.sbt ...
+2025.08.09 16:51:01 INFO  [info] set current project to LFX-2025 (in build file:/C:/Users/Admin/LFX-Mentorship/LFX-Mentorship/)
+2025.08.09 16:51:03 INFO  [warn] 
+2025.08.09 16:51:03 INFO  [warn] 	Note: Unresolved dependencies path:
+2025.08.09 16:51:05 INFO  [error] Couldn't run bloopGenerate. The issue could be caused by failing to compile the project.
+2025.08.09 16:51:05 INFO  [warn] Removed stale C:\Users\Admin\LFX-Mentorship\LFX-Mentorship\.bloop\root-test.json
+2025.08.09 16:51:05 INFO  [warn] Removed stale C:\Users\Admin\LFX-Mentorship\LFX-Mentorship\.bloop\root.json
+2025.08.09 16:51:05 INFO  [error] sbt.librarymanagement.ResolveException: Error downloading edu.berkeley.cs:chisel3-plugin_2.13.16:3.5.5
+2025.08.09 16:51:05 INFO  [error]   Not found
+2025.08.09 16:51:05 INFO  [error]   Not found
+2025.08.09 16:51:05 INFO  [error]   not found: C:\Users\Admin\.ivy2\localedu.berkeley.cs\chisel3-plugin_2.13.16\3.5.5\ivys\ivy.xml
+2025.08.09 16:51:05 INFO  [error]   not found: https://repo1.maven.org/maven2/edu/berkeley/cs/chisel3-plugin_2.13.16/3.5.5/chisel3-plugin_2.13.16-3.5.5.pom
+2025.08.09 16:51:05 INFO  [error] 	at lmcoursier.CoursierDependencyResolution.unresolvedWarningOrThrow(CoursierDependencyResolution.scala:344)
+2025.08.09 16:51:05 INFO  [error] 	at lmcoursier.CoursierDependencyResolution.$anonfun$update$38(CoursierDependencyResolution.scala:313)
+2025.08.09 16:51:05 INFO  [error] 	at scala.util.Either$LeftProjection.map(Either.scala:573)
+2025.08.09 16:51:05 INFO  [error] 	at lmcoursier.CoursierDependencyResolution.update(CoursierDependencyResolution.scala:313)
+2025.08.09 16:51:05 INFO  [error] 	at sbt.librarymanagement.DependencyResolution.update(DependencyResolution.scala:60)
+2025.08.09 16:51:05 INFO  [error] 	at sbt.internal.LibraryManagement$.resolve$1(LibraryManagement.scala:60)
+2025.08.09 16:51:05 INFO  [error] 	at sbt.internal.LibraryManagement$.$anonfun$cachedUpdate$12(LibraryManagement.scala:134)
+2025.08.09 16:51:05 INFO  [error] 	at sbt.util.Tracked$.$anonfun$lastOutput$1(Tracked.scala:74)
+2025.08.09 16:51:05 INFO  [error] 	at sbt.internal.LibraryManagement$.$anonfun$cachedUpdate$20(LibraryManagement.scala:147)
+2025.08.09 16:51:05 INFO  [error] 	at scala.util.control.Exception$Catch.apply(Exception.scala:228)
+2025.08.09 16:51:05 INFO  [error] 	at sbt.internal.LibraryManagement$.$anonfun$cachedUpdate$11(LibraryManagement.scala:147)
+2025.08.09 16:51:05 INFO  [error] 	at sbt.internal.LibraryManagement$.$anonfun$cachedUpdate$11$adapted(LibraryManagement.scala:128)
+2025.08.09 16:51:05 INFO  [error] 	at sbt.util.Tracked$.$anonfun$inputChangedW$1(Tracked.scala:220)
+2025.08.09 16:51:05 INFO  [error] 	at sbt.internal.LibraryManagement$.cachedUpdate(LibraryManagement.scala:161)
+2025.08.09 16:51:05 INFO  [error] 	at sbt.Classpaths$.$anonfun$updateTask0$1(Defaults.scala:3801)
+2025.08.09 16:51:05 INFO  [error] 	at scala.Function1.$anonfun$compose$1(Function1.scala:49)
+2025.08.09 16:51:05 INFO  [error] 	at sbt.internal.util.$tilde$greater.$anonfun$$u2219$1(TypeFunctions.scala:63)
+2025.08.09 16:51:05 INFO  [error] 	at sbt.std.Transform$$anon$4.work(Transform.scala:69)
+2025.08.09 16:51:05 INFO  [error] 	at sbt.Execute.$anonfun$submit$2(Execute.scala:283)
+2025.08.09 16:51:05 INFO  [error] 	at sbt.internal.util.ErrorHandling$.wideConvert(ErrorHandling.scala:24)
+2025.08.09 16:51:05 INFO  [error] 	at sbt.Execute.work(Execute.scala:292)
+2025.08.09 16:51:05 INFO  [error] 	at sbt.Execute.$anonfun$submit$1(Execute.scala:283)
+2025.08.09 16:51:05 INFO  [error] 	at sbt.ConcurrentRestrictions$$anon$4.$anonfun$submitValid$1(ConcurrentRestrictions.scala:265)
+2025.08.09 16:51:05 INFO  [error] 	at sbt.CompletionService$$anon$2.call(CompletionService.scala:65)
+2025.08.09 16:51:05 INFO  [error] 	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:317)
+2025.08.09 16:51:05 INFO  [error] 	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:572)
+2025.08.09 16:51:05 INFO  [error] 	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:317)
+2025.08.09 16:51:05 INFO  [error] 	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
+2025.08.09 16:51:05 INFO  [error] 	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
+2025.08.09 16:51:05 INFO  [error] 	at java.base/java.lang.Thread.run(Thread.java:1583)
+2025.08.09 16:51:05 INFO  [error] (update) sbt.librarymanagement.ResolveException: Error downloading edu.berkeley.cs:chisel3-plugin_2.13.16:3.5.5
+2025.08.09 16:51:05 INFO  [error]   Not found
+2025.08.09 16:51:05 INFO  [error]   Not found
+2025.08.09 16:51:05 INFO  [error]   not found: C:\Users\Admin\.ivy2\localedu.berkeley.cs\chisel3-plugin_2.13.16\3.5.5\ivys\ivy.xml
+2025.08.09 16:51:05 INFO  [error]   not found: https://repo1.maven.org/maven2/edu/berkeley/cs/chisel3-plugin_2.13.16/3.5.5/chisel3-plugin_2.13.16-3.5.5.pom
+2025.08.09 16:51:05 INFO  [error] Total time: 4 s, completed Aug 9, 2025, 4:51:05 PM
+2025.08.09 16:51:05 INFO  time: ran 'sbt bloopInstall' in 12s
+2025.08.09 16:51:05 ERROR sbt command failed: C:\Program Files\Eclipse Adoptium\jdk-21.0.8.9-hotspot\bin\java.exe -Djline.terminal=jline.UnsupportedTerminal -Dsbt.log.noformat=true -Dfile.encoding=UTF-8 -jar C:\Users\Admin\AppData\Local\Temp\metals16776021820803131833\sbt-launch.jar -Dbloop.export-jar-classifiers=sources bloopInstall
+2025.08.09 16:51:05 INFO  Disconnecting from Bloop session...
+2025.08.09 16:51:05 INFO  Shut down connection with build server.
+2025.08.09 16:51:05 INFO  Attempting to connect to the build server...
+2025.08.09 16:51:05 INFO  Found a Bloop server running
+2025.08.09 16:51:05 INFO  [0m[31m[E][0m Caught java.lang.NullPointerException: Cannot invoke "scala.collection.immutable.List.filterNot(scala.Function1)" because "sessions" is null
+2025.08.09 16:51:05 ERROR Bloop 'bsp' command exited with code 1. Something may be wrong with the current configuration.
+Running the [1mclean[0m sub-command to clear the working directory and remove caches might help.
+If the error persists, please report the issue as a bug and attach a log with increased verbosity by passing [1m-v -v -v[0m.
+2025.08.09 16:51:05 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at C:\Users\Admin\LFX-Mentorship\.metals\bsp.trace.json or C:\Users\Admin\AppData\Local\scalameta\metals\cache\bsp.trace.json
+2025.08.09 16:51:05 INFO  time: Connected to build server in 0.14s
+2025.08.09 16:51:05 INFO  Connected to Build server: Bloop v2.0.12
+2025.08.09 16:51:05 INFO  Created report: Optional.empty
+2025.08.09 16:51:05 INFO  Empty build targets. Expected at least one build target identifier. (full report at: "C:\Users\Admin\LFX-Mentorship\.metals\.reports\bloop\2025-08-09\r_Empty build targets...._16-51-05-339.md")
+2025.08.09 16:51:05 INFO  Empty build targets. Expected at least one build target identifier. (full report at: "C:\Users\Admin\LFX-Mentorship\.metals\.reports\bloop\2025-08-09\r_Empty build targets...._16-51-05-339.md")
+2025.08.09 16:51:05 INFO  Empty build targets. Expected at least one build target identifier. (full report at: "C:\Users\Admin\LFX-Mentorship\.metals\.reports\bloop\2025-08-09\r_Empty build targets...._16-51-05-339.md")
+2025.08.09 16:51:05 INFO  Empty build targets. Expected at least one build target identifier. (full report at: "C:\Users\Admin\LFX-Mentorship\.metals\.reports\bloop\2025-08-09\r_Empty build targets...._16-51-05-339.md")
+2025.08.09 16:51:05 INFO  Empty build targets. Expected at least one build target identifier. (full report at: "C:\Users\Admin\LFX-Mentorship\.metals\.reports\bloop\2025-08-09\r_Empty build targets...._16-51-05-339.md")
+2025.08.09 16:51:06 INFO  time: indexed workspace in 1.46s
+2025.08.09 16:51:06 WARN  no build target for: C:\Users\Admin\LFX-Mentorship\LFX-Mentorship\build.sbt
+2025.08.09 16:51:06 INFO  no build target found for C:\Users\Admin\LFX-Mentorship\LFX-Mentorship\build.sbt. Using presentation compiler with project's scala-library version: 3.3.6
+2025.08.09 16:51:06 INFO  no build target found for C:\Users\Admin\LFX-Mentorship\LFX-Mentorship\build.sbt. Using presentation compiler with project's scala-library version: 3.3.6
+2025.08.09 16:52:11 INFO  no build target found for C:\Users\Admin\LFX-Mentorship\LFX-Mentorship\build.sbt. Using presentation compiler with project's scala-library version: 3.3.6
+2025.08.09 16:52:13 INFO  no build target found for C:\Users\Admin\LFX-Mentorship\LFX-Mentorship\build.sbt. Using presentation compiler with project's scala-library version: 3.3.6
+2025.08.09 16:52:13 INFO  no build target found for C:\Users\Admin\LFX-Mentorship\LFX-Mentorship\build.sbt. Using presentation compiler with project's scala-library version: 3.3.6
+2025.08.09 16:52:13 INFO  no build target found for C:\Users\Admin\LFX-Mentorship\LFX-Mentorship\build.sbt. Using presentation compiler with project's scala-library version: 3.3.6
+2025.08.09 16:52:15 INFO  no build target found for C:\Users\Admin\LFX-Mentorship\LFX-Mentorship\build.sbt. Using presentation compiler with project's scala-library version: 3.3.6
+Aug 09, 2025 4:53:09 PM org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint notify
+INFO: Unsupported notification method: $/setTrace
+2025.08.09 16:53:10 INFO  no build target found for C:\Users\Admin\LFX-Mentorship\LFX-Mentorship\build.sbt. Using presentation compiler with project's scala-library version: 3.3.6
+2025.08.09 18:12:48 INFO  no build target found for C:\Users\Admin\LFX-Mentorship\LFX-Mentorship\build.sbt. Using presentation compiler with project's scala-library version: 3.3.6
+2025.08.09 18:12:48 INFO  no build target found for C:\Users\Admin\LFX-Mentorship\LFX-Mentorship\build.sbt. Using presentation compiler with project's scala-library version: 3.3.6
+2025.08.09 18:12:48 INFO  no build target found for C:\Users\Admin\LFX-Mentorship\LFX-Mentorship\build.sbt. Using presentation compiler with project's scala-library version: 3.3.6
+2025.08.09 18:12:50 INFO  no build target found for C:\Users\Admin\LFX-Mentorship\LFX-Mentorship\build.sbt. Using presentation compiler with project's scala-library version: 3.3.6
+2025.08.09 18:12:50 INFO  no build target found for C:\Users\Admin\LFX-Mentorship\LFX-Mentorship\build.sbt. Using presentation compiler with project's scala-library version: 3.3.6
+2025.08.09 18:12:50 INFO  no build target found for C:\Users\Admin\LFX-Mentorship\LFX-Mentorship\build.sbt. Using presentation compiler with project's scala-library version: 3.3.6
+2025.08.09 18:12:50 INFO  no build target found for C:\Users\Admin\LFX-Mentorship\LFX-Mentorship\build.sbt. Using presentation compiler with project's scala-library version: 3.3.6
+2025.08.09 18:12:50 INFO  no build target found for C:\Users\Admin\LFX-Mentorship\LFX-Mentorship\build.sbt. Using presentation compiler with project's scala-library version: 3.3.6
+2025.08.09 18:12:50 INFO  no build target found for C:\Users\Admin\LFX-Mentorship\LFX-Mentorship\build.sbt. Using presentation compiler with project's scala-library version: 3.3.6
+2025.08.09 18:12:50 INFO  no build target found for C:\Users\Admin\LFX-Mentorship\LFX-Mentorship\build.sbt. Using presentation compiler with project's scala-library version: 3.3.6
+2025.08.09 18:12:50 INFO  no build target found for C:\Users\Admin\LFX-Mentorship\LFX-Mentorship\build.sbt. Using presentation compiler with project's scala-library version: 3.3.6
+2025.08.09 18:12:50 INFO  no build target found for C:\Users\Admin\LFX-Mentorship\LFX-Mentorship\build.sbt. Using presentation compiler with project's scala-library version: 3.3.6
+2025.08.09 18:12:53 WARN  no build target for: C:\Users\Admin\LFX-Mentorship\LFX-Mentorship\build.sbt
+2025.08.09 18:12:53 INFO  no build target found for C:\Users\Admin\LFX-Mentorship\LFX-Mentorship\build.sbt. Using presentation compiler with project's scala-library version: 3.3.6
+2025.08.09 18:12:53 INFO  no build target found for C:\Users\Admin\LFX-Mentorship\LFX-Mentorship\build.sbt. Using presentation compiler with project's scala-library version: 3.3.6
+2025.08.09 18:12:55 INFO  running 'C:\Program Files\Eclipse Adoptium\jdk-21.0.8.9-hotspot\bin\java.exe -Djline.terminal=jline.UnsupportedTerminal -Dsbt.log.noformat=true -Dfile.encoding=UTF-8 -jar C:\Users\Admin\AppData\Local\Temp\metals2319540241373549810\sbt-launch.jar -Dbloop.export-jar-classifiers=sources bloopInstall'
+2025.08.09 18:12:55 INFO  no build target found for C:\Users\Admin\LFX-Mentorship\LFX-Mentorship\build.sbt. Using presentation compiler with project's scala-library version: 3.3.6
+2025.08.09 18:12:57 INFO  [info] welcome to sbt 1.9.7 (Eclipse Adoptium Java 21.0.8)
+2025.08.09 18:12:57 INFO  [info] loading settings for project lfx-mentorship-build-build-build from metals.sbt ...
+2025.08.09 18:12:58 INFO  [info] loading project definition from C:\Users\Admin\LFX-Mentorship\LFX-Mentorship\project\project\project
+2025.08.09 18:12:58 INFO  [info] loading settings for project lfx-mentorship-build-build from metals.sbt ...
+2025.08.09 18:12:58 INFO  [info] loading project definition from C:\Users\Admin\LFX-Mentorship\LFX-Mentorship\project\project
+2025.08.09 18:13:01 INFO  [success] Generated .bloop\lfx-mentorship-build-build.json
+2025.08.09 18:13:01 INFO  [success] Total time: 2 s, completed Aug 9, 2025, 6:13:02 PM
+2025.08.09 18:13:01 INFO  [info] loading settings for project lfx-mentorship-build from metals.sbt,plugins.sbt ...
+2025.08.09 18:13:01 INFO  [info] loading project definition from C:\Users\Admin\LFX-Mentorship\LFX-Mentorship\project
+2025.08.09 18:13:03 INFO  [success] Total time: 1 s, completed Aug 9, 2025, 6:13:03 PM
+2025.08.09 18:13:05 INFO  [info] loading settings for project root from build.sbt ...
+2025.08.09 18:13:05 INFO  [info] set current project to LFX-2025 (in build file:/C:/Users/Admin/LFX-Mentorship/LFX-Mentorship/)
+2025.08.09 18:13:24 INFO  [success] Generated .bloop\root.json
+2025.08.09 18:13:24 INFO  [success] Generated .bloop\root-test.json
+2025.08.09 18:13:24 INFO  [success] Total time: 18 s, completed Aug 9, 2025, 6:13:24 PM
+2025.08.09 18:13:24 INFO  time: ran 'sbt bloopInstall' in 28s
+2025.08.09 18:13:24 INFO  Disconnecting from Bloop session...
+2025.08.09 18:13:24 INFO  Shut down connection with build server.
+2025.08.09 18:13:24 INFO  Attempting to connect to the build server...
+2025.08.09 18:13:24 INFO  [0m[31m[E][0m Caught java.lang.NullPointerException: Cannot invoke "scala.collection.immutable.List.filterNot(scala.Function1)" because "sessions" is null
+2025.08.09 18:13:24 INFO  Found a Bloop server running
+2025.08.09 18:13:24 ERROR Bloop 'bsp' command exited with code 1. Something may be wrong with the current configuration.
+Running the [1mclean[0m sub-command to clear the working directory and remove caches might help.
+If the error persists, please report the issue as a bug and attach a log with increased verbosity by passing [1m-v -v -v[0m.
+2025.08.09 18:13:24 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at C:\Users\Admin\LFX-Mentorship\.metals\bsp.trace.json or C:\Users\Admin\AppData\Local\scalameta\metals\cache\bsp.trace.json
+2025.08.09 18:13:32 INFO  no build target found for C:\Users\Admin\LFX-Mentorship\LFX-Mentorship\build.sbt. Using presentation compiler with project's scala-library version: 3.3.6
+2025.08.09 18:13:35 INFO  no build target found for C:\Users\Admin\LFX-Mentorship\LFX-Mentorship\build.sbt. Using presentation compiler with project's scala-library version: 3.3.6
+2025.08.09 18:13:42 INFO  time: Connected to build server in 18s
+2025.08.09 18:13:42 INFO  Connected to Build server: Bloop v2.0.12
+2025.08.09 18:13:42 WARN  2.13.8 is no longer supported in the current Metals versions, using the last known supported version 1.3.3
+2025.08.09 18:13:49 INFO  Shutting down server
+2025.08.09 18:13:49 INFO  shutting down Metals
+2025.08.09 18:13:49 INFO  Shut down connection with build server.
+2025.08.09 18:13:49 INFO  [0m[31m[E][0m Caught java.lang.NullPointerException: Cannot invoke "scala.collection.immutable.List.filterNot(scala.Function1)" because "sessions" is null
+2025.08.09 18:13:49 ERROR Bloop 'bsp' command exited with code 1. Something may be wrong with the current configuration.
+Running the [1mclean[0m sub-command to clear the working directory and remove caches might help.
+If the error persists, please report the issue as a bug and attach a log with increased verbosity by passing [1m-v -v -v[0m.
+2025.08.09 18:13:49 INFO  Exiting server
+2025.08.09 18:14:01 INFO  Started: Metals version 1.6.1 in folders 'C:\Users\Admin\LFX-Mentorship' for client Visual Studio Code 1.103.0.
+2025.08.09 18:14:01 INFO  no build target found for C:\Users\Admin\LFX-Mentorship\LFX-Mentorship\build.sbt. Using presentation compiler with project's scala-library version: 3.3.6
+2025.08.09 18:14:03 INFO  no build target found for C:\Users\Admin\LFX-Mentorship\LFX-Mentorship\build.sbt. Using presentation compiler with project's scala-library version: 3.3.6
+2025.08.09 18:14:03 INFO  Attempting to connect to the build server...
+2025.08.09 18:14:03 INFO  Found a Bloop server running
+2025.08.09 18:14:03 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at C:\Users\Admin\LFX-Mentorship\.metals\bsp.trace.json or C:\Users\Admin\AppData\Local\scalameta\metals\cache\bsp.trace.json
+2025.08.09 18:14:04 INFO  time: Connected to build server in 0.39s
+2025.08.09 18:14:03 INFO  Connected to Build server: Bloop v2.0.12
+2025.08.09 18:14:04 INFO  time: Imported build in 0.17s
+2025.08.09 18:14:04 WARN  2.13.8 is no longer supported in the current Metals versions, using the last known supported version 1.3.3
+2025.08.09 18:14:25 INFO  time: indexed workspace in 20s
+2025.08.09 18:14:25 WARN  no build target for: C:\Users\Admin\LFX-Mentorship\LFX-Mentorship\build.sbt
+2025.08.09 18:14:25 INFO  no build target found for C:\Users\Admin\LFX-Mentorship\LFX-Mentorship\build.sbt. Using presentation compiler with project's scala-library version: 2.13.16
+2025.08.09 18:14:25 INFO  no build target found for C:\Users\Admin\LFX-Mentorship\LFX-Mentorship\build.sbt. Using presentation compiler with project's scala-library version: 2.13.16
+2025.08.09 18:14:25 WARN  no build target for: C:\Users\Admin\LFX-Mentorship\LFX-Mentorship\build.sbt
+2025.08.09 18:14:26 INFO  time: code lens generation in 1.42s
+2025.08.09 18:14:28 INFO  no build target found for C:\Users\Admin\LFX-Mentorship\LFX-Mentorship\build.sbt. Using presentation compiler with project's scala-library version: 2.13.16
+2025.08.09 21:20:49 INFO  compiling root (1 scala source)
+Aug 09, 2025 9:20:50 PM scala.meta.internal.pc.CompilerAccess retryWithCleanCompiler
+INFO: compiler crashed due to an error in the Scala compiler, retrying with new compiler instance.
+Aug 09, 2025 9:20:50 PM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: A severe compiler error occurred, full details of the error can be found in the error report C:\Users\Admin\LFX-Mentorship\.metals\.reports\metals-full\2025-08-09\r_compiler-error_(root)_21-20-50-852.md
+Aug 09, 2025 9:20:50 PM scala.meta.internal.pc.CompilerAccess retryWithCleanCompiler
+INFO: compiler crashed due to an error in the Scala compiler, retrying with new compiler instance.
+Aug 09, 2025 9:20:51 PM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: A severe compiler error occurred, full details of the error can be found in the error report C:\Users\Admin\LFX-Mentorship\.metals\.reports\metals-full\2025-08-09\r_compiler-error_(root)_21-20-51-032.md
+2025.08.09 21:20:51 WARN  Could not find semantic tokens for: file:///C:/Users/Admin/LFX-Mentorship/LFX-Mentorship/src/main/scala/stack/StackModule.scala
+Aug 09, 2025 9:20:51 PM scala.meta.internal.pc.CompilerAccess retryWithCleanCompiler
+INFO: compiler crashed due to an error in the Scala compiler, retrying with new compiler instance.
+Aug 09, 2025 9:20:51 PM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: A severe compiler error occurred, full details of the error can be found in the error report C:\Users\Admin\LFX-Mentorship\.metals\.reports\metals-full\2025-08-09\r_compiler-error_(root)_21-20-51-234.md
+Aug 09, 2025 9:20:53 PM scala.meta.internal.pc.CompilerAccess retryWithCleanCompiler
+INFO: compiler crashed due to an error in the Scala compiler, retrying with new compiler instance.
+Aug 09, 2025 9:20:53 PM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: A severe compiler error occurred, full details of the error can be found in the error report C:\Users\Admin\LFX-Mentorship\.metals\.reports\metals-full\2025-08-09\r_compiler-error_(root)_21-20-53-398.md
+2025.08.09 21:20:55 INFO  time: compiled root in 5.85s
+Aug 09, 2025 9:20:55 PM scala.meta.internal.pc.CompilerAccess retryWithCleanCompiler
+INFO: compiler crashed due to an error in the Scala compiler, retrying with new compiler instance.
+Aug 09, 2025 9:20:55 PM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: A severe compiler error occurred, full details of the error can be found in the error report C:\Users\Admin\LFX-Mentorship\.metals\.reports\metals-full\2025-08-09\r_compiler-error_(root)_21-20-55-399.md
+2025.08.09 21:20:55 WARN  Could not find semantic tokens for: file:///C:/Users/Admin/LFX-Mentorship/LFX-Mentorship/src/main/scala/stack/StackModule.scala
+Aug 09, 2025 9:21:03 PM scala.meta.internal.pc.CompilerAccess retryWithCleanCompiler
+INFO: compiler crashed due to an error in the Scala compiler, retrying with new compiler instance.
+Aug 09, 2025 9:21:03 PM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: A severe compiler error occurred, full details of the error can be found in the error report C:\Users\Admin\LFX-Mentorship\.metals\.reports\metals-full\2025-08-09\r_compiler-error_(root)_21-21-03-165.md
+Aug 09, 2025 9:21:06 PM scala.meta.internal.pc.CompilerAccess retryWithCleanCompiler
+INFO: compiler crashed due to an error in the Scala compiler, retrying with new compiler instance.
+Aug 09, 2025 9:21:06 PM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: A severe compiler error occurred, full details of the error can be found in the error report C:\Users\Admin\LFX-Mentorship\.metals\.reports\metals-full\2025-08-09\r_compiler-error_(root)_21-21-06-384.md
+Aug 09, 2025 9:25:49 PM scala.meta.internal.pc.CompilerAccess retryWithCleanCompiler
+INFO: compiler crashed due to an error in the Scala compiler, retrying with new compiler instance.
+Aug 09, 2025 9:25:49 PM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: A severe compiler error occurred, full details of the error can be found in the error report C:\Users\Admin\LFX-Mentorship\.metals\.reports\metals-full\2025-08-09\r_compiler-error_(root)_21-25-49-393.md
+Aug 09, 2025 9:25:49 PM scala.meta.internal.pc.CompilerAccess retryWithCleanCompiler
+INFO: compiler crashed due to an error in the Scala compiler, retrying with new compiler instance.
+Aug 09, 2025 9:25:49 PM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: A severe compiler error occurred, full details of the error can be found in the error report C:\Users\Admin\LFX-Mentorship\.metals\.reports\metals-full\2025-08-09\r_compiler-error_(root)_21-25-49-586.md
+Aug 09, 2025 9:25:50 PM scala.meta.internal.pc.CompilerAccess retryWithCleanCompiler
+INFO: compiler crashed due to an error in the Scala compiler, retrying with new compiler instance.
+Aug 09, 2025 9:25:50 PM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: A severe compiler error occurred, full details of the error can be found in the error report C:\Users\Admin\LFX-Mentorship\.metals\.reports\metals-full\2025-08-09\r_compiler-error_(root)_21-25-50-046.md
+Aug 09, 2025 9:27:12 PM scala.meta.internal.pc.CompilerAccess retryWithCleanCompiler
+INFO: compiler crashed due to an error in the Scala compiler, retrying with new compiler instance.
+Aug 09, 2025 9:27:12 PM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: A severe compiler error occurred, full details of the error can be found in the error report C:\Users\Admin\LFX-Mentorship\.metals\.reports\metals-full\2025-08-09\r_compiler-error_(root)_21-27-12-796.md
+2025.08.09 21:27:12 WARN  Could not find semantic tokens for: file:///C:/Users/Admin/LFX-Mentorship/LFX-Mentorship/src/main/scala/stack/StackModule.scala
+2025.08.09 21:27:15 INFO  compiling root (1 scala source)
+2025.08.09 21:27:15 INFO  time: compiled root in 0.29s
+Aug 09, 2025 9:27:15 PM scala.meta.internal.pc.CompilerAccess retryWithCleanCompiler
+INFO: compiler crashed due to an error in the Scala compiler, retrying with new compiler instance.
+Aug 09, 2025 9:27:15 PM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: A severe compiler error occurred, full details of the error can be found in the error report C:\Users\Admin\LFX-Mentorship\.metals\.reports\metals-full\2025-08-09\r_compiler-error_(root)_21-27-15-496.md
+2025.08.09 21:27:15 WARN  Could not find semantic tokens for: file:///C:/Users/Admin/LFX-Mentorship/LFX-Mentorship/src/main/scala/stack/StackModule.scala
+Aug 09, 2025 9:27:18 PM scala.meta.internal.pc.CompilerAccess retryWithCleanCompiler
+INFO: compiler crashed due to an error in the Scala compiler, retrying with new compiler instance.
+Aug 09, 2025 9:27:18 PM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: A severe compiler error occurred, full details of the error can be found in the error report C:\Users\Admin\LFX-Mentorship\.metals\.reports\metals-full\2025-08-09\r_compiler-error_(root)_21-27-18-747.md
+Aug 09, 2025 9:28:05 PM scala.meta.internal.pc.CompilerAccess retryWithCleanCompiler
+INFO: compiler crashed due to an error in the Scala compiler, retrying with new compiler instance.
+Aug 09, 2025 9:28:05 PM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: A severe compiler error occurred, full details of the error can be found in the error report C:\Users\Admin\LFX-Mentorship\.metals\.reports\metals-full\2025-08-09\r_compiler-error_(root)_21-28-05-334.md
+2025.08.09 21:29:51 INFO  Shutting down server
+2025.08.09 21:29:51 INFO  shutting down Metals
+2025.08.09 21:29:51 INFO  Shut down connection with build server.
+2025.08.09 21:29:51 INFO  [0m[31m[E][0m Caught java.lang.NullPointerException: Cannot invoke "scala.collection.immutable.List.filterNot(scala.Function1)" because "sessions" is null
+2025.08.09 21:29:51 ERROR Bloop 'bsp' command exited with code 1. Something may be wrong with the current configuration.
+Running the [1mclean[0m sub-command to clear the working directory and remove caches might help.
+If the error persists, please report the issue as a bug and attach a log with increased verbosity by passing [1m-v -v -v[0m.
+2025.08.09 21:29:51 INFO  Exiting server
+2025.08.09 22:06:29 INFO  Started: Metals version 1.6.1 in folders 'C:\Users\Admin\LFX-Mentorship' for client Visual Studio Code 1.103.0.
+2025.08.09 22:06:29 INFO  no build target found for C:\Users\Admin\LFX-Mentorship\LFX-Mentorship\build.sbt. Using presentation compiler with project's scala-library version: 3.3.6
+2025.08.09 22:06:59 INFO  no build target found for C:\Users\Admin\LFX-Mentorship\LFX-Mentorship\build.sbt. Using presentation compiler with project's scala-library version: 3.3.6
+2025.08.09 22:06:59 INFO  Attempting to connect to the build server...
+2025.08.09 22:06:59 INFO  No running Bloop server found, starting one.
+2025.08.09 22:07:11 INFO  Starting compilation server
+2025.08.09 22:07:12 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at C:\Users\Admin\LFX-Mentorship\.metals\bsp.trace.json or C:\Users\Admin\AppData\Local\scalameta\metals\cache\bsp.trace.json
+2025.08.09 22:07:20 INFO  time: Connected to build server in 20s
+2025.08.09 22:07:20 INFO  Connected to Build server: Bloop v2.0.12
+2025.08.09 22:07:20 INFO  time: Imported build in 0.17s
+2025.08.09 22:07:20 WARN  2.13.8 is no longer supported in the current Metals versions, using the last known supported version 1.3.3
+2025.08.09 22:07:51 WARN  unexpected dependency: C:\Users\Admin\AppData\Local\Coursier\Cache\v1\https\repo1.maven.org\maven2\org\scala-lang\scala-library\2.13.8\scala-library-2.13.8-sources.jar
+2025.08.09 22:07:51 WARN  unexpected dependency: C:\Users\Admin\AppData\Local\Coursier\Cache\v1\https\repo1.maven.org\maven2\org\scala-lang\scala-reflect\2.13.8\scala-reflect-2.13.8-sources.jar
+2025.08.09 22:07:51 WARN  unexpected dependency: C:\Users\Admin\AppData\Local\Coursier\Cache\v1\https\repo1.maven.org\maven2\com\lihaoyi\os-lib_2.13\0.8.0\os-lib_2.13-0.8.0-sources.jar
+2025.08.09 22:07:51 WARN  unexpected dependency: C:\Users\Admin\AppData\Local\Coursier\Cache\v1\https\repo1.maven.org\maven2\com\lihaoyi\geny_2.13\0.7.0\geny_2.13-0.7.0-sources.jar
+2025.08.09 22:07:51 WARN  unexpected dependency: C:\Users\Admin\AppData\Local\Coursier\Cache\v1\https\repo1.maven.org\maven2\org\antlr\antlr4-runtime\4.9.3\antlr4-runtime-4.9.3-sources.jar
+2025.08.09 22:07:51 WARN  unexpected dependency: C:\Users\Admin\AppData\Local\Coursier\Cache\v1\https\repo1.maven.org\maven2\com\google\protobuf\protobuf-java\3.18.2\protobuf-java-3.18.2-sources.jar
+2025.08.09 22:07:51 WARN  unexpected dependency: C:\Users\Admin\AppData\Local\Coursier\Cache\v1\https\repo1.maven.org\maven2\com\github\scopt\scopt_2.13\3.7.1\scopt_2.13-3.7.1-sources.jar
+2025.08.09 22:07:51 WARN  unexpected dependency: C:\Users\Admin\AppData\Local\Coursier\Cache\v1\https\repo1.maven.org\maven2\net\jcazevedo\moultingyaml_2.13\0.4.2\moultingyaml_2.13-0.4.2-sources.jar
+2025.08.09 22:07:51 WARN  unexpected dependency: C:\Users\Admin\AppData\Local\Coursier\Cache\v1\https\repo1.maven.org\maven2\org\json4s\json4s-native_2.13\3.6.12\json4s-native_2.13-3.6.12-sources.jar
+2025.08.09 22:07:51 WARN  unexpected dependency: C:\Users\Admin\AppData\Local\Coursier\Cache\v1\https\repo1.maven.org\maven2\org\apache\commons\commons-text\1.9\commons-text-1.9-sources.jar
+2025.08.09 22:07:51 WARN  unexpected dependency: C:\Users\Admin\AppData\Local\Coursier\Cache\v1\https\repo1.maven.org\maven2\io\github\alexarchambault\data-class_2.13\0.2.5\data-class_2.13-0.2.5-sources.jar
+2025.08.09 22:07:51 WARN  unexpected dependency: C:\Users\Admin\AppData\Local\Coursier\Cache\v1\https\repo1.maven.org\maven2\org\scala-lang\modules\scala-parallel-collections_2.13\1.0.4\scala-parallel-collections_2.13-1.0.4-sources.jar
+2025.08.09 22:07:51 WARN  unexpected dependency: C:\Users\Admin\AppData\Local\Coursier\Cache\v1\https\repo1.maven.org\maven2\com\github\nscala-time\nscala-time_2.13\2.22.0\nscala-time_2.13-2.22.0-sources.jar
+2025.08.09 22:07:51 WARN  unexpected dependency: C:\Users\Admin\AppData\Local\Coursier\Cache\v1\https\repo1.maven.org\maven2\org\yaml\snakeyaml\1.26\snakeyaml-1.26-sources.jar
+2025.08.09 22:07:51 WARN  unexpected dependency: C:\Users\Admin\AppData\Local\Coursier\Cache\v1\https\repo1.maven.org\maven2\org\json4s\json4s-core_2.13\3.6.12\json4s-core_2.13-3.6.12-sources.jar
+2025.08.09 22:07:51 WARN  unexpected dependency: C:\Users\Admin\AppData\Local\Coursier\Cache\v1\https\repo1.maven.org\maven2\org\apache\commons\commons-lang3\3.11\commons-lang3-3.11-sources.jar
+2025.08.09 22:07:51 WARN  unexpected dependency: C:\Users\Admin\AppData\Local\Coursier\Cache\v1\https\repo1.maven.org\maven2\joda-time\joda-time\2.10.1\joda-time-2.10.1-sources.jar
+2025.08.09 22:07:51 WARN  unexpected dependency: C:\Users\Admin\AppData\Local\Coursier\Cache\v1\https\repo1.maven.org\maven2\org\joda\joda-convert\2.2.0\joda-convert-2.2.0-sources.jar
+2025.08.09 22:07:51 WARN  unexpected dependency: C:\Users\Admin\AppData\Local\Coursier\Cache\v1\https\repo1.maven.org\maven2\org\json4s\json4s-ast_2.13\3.6.12\json4s-ast_2.13-3.6.12-sources.jar
+2025.08.09 22:07:51 WARN  unexpected dependency: C:\Users\Admin\AppData\Local\Coursier\Cache\v1\https\repo1.maven.org\maven2\org\json4s\json4s-scalap_2.13\3.6.12\json4s-scalap_2.13-3.6.12-sources.jar
+2025.08.09 22:07:51 WARN  unexpected dependency: C:\Users\Admin\AppData\Local\Coursier\Cache\v1\https\repo1.maven.org\maven2\com\thoughtworks\paranamer\paranamer\2.8\paranamer-2.8-sources.jar
+2025.08.09 22:07:51 WARN  unexpected dependency: C:\Users\Admin\AppData\Local\Coursier\Cache\v1\https\repo1.maven.org\maven2\edu\berkeley\cs\chisel3_2.13\3.5.6\chisel3_2.13-3.5.6-sources.jar
+2025.08.09 22:07:51 WARN  unexpected dependency: C:\Users\Admin\AppData\Local\Coursier\Cache\v1\https\repo1.maven.org\maven2\edu\berkeley\cs\chiseltest_2.13\0.5.6\chiseltest_2.13-0.5.6-sources.jar
+2025.08.09 22:07:51 WARN  unexpected dependency: C:\Users\Admin\AppData\Local\Coursier\Cache\v1\https\repo1.maven.org\maven2\org\scalatest\scalatest_2.13\3.2.0\scalatest_2.13-3.2.0-sources.jar
+2025.08.09 22:07:51 WARN  unexpected dependency: C:\Users\Admin\AppData\Local\Coursier\Cache\v1\https\repo1.maven.org\maven2\edu\berkeley\cs\chisel3-macros_2.13\3.5.6\chisel3-macros_2.13-3.5.6-sources.jar
+2025.08.09 22:07:51 WARN  unexpected dependency: C:\Users\Admin\AppData\Local\Coursier\Cache\v1\https\repo1.maven.org\maven2\edu\berkeley\cs\chisel3-core_2.13\3.5.6\chisel3-core_2.13-3.5.6-sources.jar
+2025.08.09 22:07:51 WARN  unexpected dependency: C:\Users\Admin\AppData\Local\Coursier\Cache\v1\https\repo1.maven.org\maven2\edu\berkeley\cs\treadle_2.13\1.5.6\treadle_2.13-1.5.6-sources.jar
+2025.08.09 22:07:51 WARN  unexpected dependency: C:\Users\Admin\AppData\Local\Coursier\Cache\v1\https\repo1.maven.org\maven2\com\lihaoyi\utest_2.13\0.7.9\utest_2.13-0.7.9-sources.jar
+2025.08.09 22:07:51 WARN  unexpected dependency: C:\Users\Admin\AppData\Local\Coursier\Cache\v1\https\repo1.maven.org\maven2\net\java\dev\jna\jna\5.10.0\jna-5.10.0-sources.jar
+2025.08.09 22:07:51 WARN  unexpected dependency: C:\Users\Admin\AppData\Local\Coursier\Cache\v1\https\repo1.maven.org\maven2\org\scalatest\scalatest-core_2.13\3.2.0\scalatest-core_2.13-3.2.0-sources.jar
+2025.08.09 22:07:51 WARN  unexpected dependency: C:\Users\Admin\AppData\Local\Coursier\Cache\v1\https\repo1.maven.org\maven2\org\scalatest\scalatest-featurespec_2.13\3.2.0\scalatest-featurespec_2.13-3.2.0-sources.jar
+2025.08.09 22:07:51 WARN  unexpected dependency: C:\Users\Admin\AppData\Local\Coursier\Cache\v1\https\repo1.maven.org\maven2\org\scalatest\scalatest-flatspec_2.13\3.2.0\scalatest-flatspec_2.13-3.2.0-sources.jar
+2025.08.09 22:07:51 WARN  unexpected dependency: C:\Users\Admin\AppData\Local\Coursier\Cache\v1\https\repo1.maven.org\maven2\org\scalatest\scalatest-freespec_2.13\3.2.0\scalatest-freespec_2.13-3.2.0-sources.jar
+2025.08.09 22:07:51 WARN  unexpected dependency: C:\Users\Admin\AppData\Local\Coursier\Cache\v1\https\repo1.maven.org\maven2\org\scalatest\scalatest-funsuite_2.13\3.2.0\scalatest-funsuite_2.13-3.2.0-sources.jar
+2025.08.09 22:07:51 WARN  unexpected dependency: C:\Users\Admin\AppData\Local\Coursier\Cache\v1\https\repo1.maven.org\maven2\org\scalatest\scalatest-funspec_2.13\3.2.0\scalatest-funspec_2.13-3.2.0-sources.jar
+2025.08.09 22:07:51 WARN  unexpected dependency: C:\Users\Admin\AppData\Local\Coursier\Cache\v1\https\repo1.maven.org\maven2\org\scalatest\scalatest-propspec_2.13\3.2.0\scalatest-propspec_2.13-3.2.0-sources.jar
+2025.08.09 22:07:51 WARN  unexpected dependency: C:\Users\Admin\AppData\Local\Coursier\Cache\v1\https\repo1.maven.org\maven2\org\scalatest\scalatest-refspec_2.13\3.2.0\scalatest-refspec_2.13-3.2.0-sources.jar
+2025.08.09 22:07:51 WARN  unexpected dependency: C:\Users\Admin\AppData\Local\Coursier\Cache\v1\https\repo1.maven.org\maven2\org\scalatest\scalatest-wordspec_2.13\3.2.0\scalatest-wordspec_2.13-3.2.0-sources.jar
+2025.08.09 22:07:51 WARN  unexpected dependency: C:\Users\Admin\AppData\Local\Coursier\Cache\v1\https\repo1.maven.org\maven2\org\scalatest\scalatest-diagrams_2.13\3.2.0\scalatest-diagrams_2.13-3.2.0-sources.jar
+2025.08.09 22:07:51 WARN  unexpected dependency: C:\Users\Admin\AppData\Local\Coursier\Cache\v1\https\repo1.maven.org\maven2\org\scalatest\scalatest-matchers-core_2.13\3.2.0\scalatest-matchers-core_2.13-3.2.0-sources.jar
+2025.08.09 22:07:51 WARN  unexpected dependency: C:\Users\Admin\AppData\Local\Coursier\Cache\v1\https\repo1.maven.org\maven2\org\scalatest\scalatest-shouldmatchers_2.13\3.2.0\scalatest-shouldmatchers_2.13-3.2.0-sources.jar
+2025.08.09 22:07:51 WARN  unexpected dependency: C:\Users\Admin\AppData\Local\Coursier\Cache\v1\https\repo1.maven.org\maven2\org\scalatest\scalatest-mustmatchers_2.13\3.2.0\scalatest-mustmatchers_2.13-3.2.0-sources.jar
+2025.08.09 22:07:51 WARN  unexpected dependency: C:\Users\Admin\AppData\Local\Coursier\Cache\v1\https\repo1.maven.org\maven2\edu\berkeley\cs\firrtl_2.13\1.5.6\firrtl_2.13-1.5.6-sources.jar
+2025.08.09 22:07:51 WARN  unexpected dependency: C:\Users\Admin\AppData\Local\Coursier\Cache\v1\https\repo1.maven.org\maven2\org\scala-lang\modules\scala-jline\2.12.1\scala-jline-2.12.1-sources.jar
+2025.08.09 22:07:51 WARN  unexpected dependency: C:\Users\Admin\AppData\Local\Coursier\Cache\v1\https\repo1.maven.org\maven2\org\portable-scala\portable-scala-reflect_2.13\0.1.1\portable-scala-reflect_2.13-0.1.1-sources.jar
+2025.08.09 22:07:51 WARN  unexpected dependency: C:\Users\Admin\AppData\Local\Coursier\Cache\v1\https\repo1.maven.org\maven2\org\scalatest\scalatest-compatible\3.2.0\scalatest-compatible-3.2.0-sources.jar
+2025.08.09 22:07:51 WARN  unexpected dependency: C:\Users\Admin\AppData\Local\Coursier\Cache\v1\https\repo1.maven.org\maven2\org\scalactic\scalactic_2.13\3.2.0\scalactic_2.13-3.2.0-sources.jar
+2025.08.09 22:07:51 WARN  unexpected dependency: C:\Users\Admin\AppData\Local\Coursier\Cache\v1\https\repo1.maven.org\maven2\org\scala-lang\modules\scala-xml_2.13\1.2.0\scala-xml_2.13-1.2.0-sources.jar
+2025.08.09 22:07:51 WARN  unexpected dependency: C:\Users\Admin\AppData\Local\Coursier\Cache\v1\https\repo1.maven.org\maven2\org\fusesource\jansi\jansi\1.11\jansi-1.11-sources.jar
+2025.08.09 22:07:51 WARN  unexpected dependency: C:\Users\Admin\AppData\Local\Coursier\Cache\v1\https\repo1.maven.org\maven2\edu\berkeley\cs\chisel3_2.13\3.5.5\chisel3_2.13-3.5.5-sources.jar
+2025.08.09 22:07:51 WARN  unexpected dependency: C:\Users\Admin\AppData\Local\Coursier\Cache\v1\https\repo1.maven.org\maven2\edu\berkeley\cs\chisel3-macros_2.13\3.5.5\chisel3-macros_2.13-3.5.5-sources.jar
+2025.08.09 22:07:51 WARN  unexpected dependency: C:\Users\Admin\AppData\Local\Coursier\Cache\v1\https\repo1.maven.org\maven2\edu\berkeley\cs\chisel3-core_2.13\3.5.5\chisel3-core_2.13-3.5.5-sources.jar
+2025.08.09 22:07:51 WARN  unexpected dependency: C:\Users\Admin\AppData\Local\Coursier\Cache\v1\https\repo1.maven.org\maven2\edu\berkeley\cs\firrtl_2.13\1.5.5\firrtl_2.13-1.5.5-sources.jar
+2025.08.09 22:07:51 INFO  time: indexed workspace in 31s
+2025.08.09 22:07:51 WARN  no build target for: C:\Users\Admin\LFX-Mentorship\LFX-Mentorship\build.sbt
+2025.08.09 22:07:51 INFO  no build target found for C:\Users\Admin\LFX-Mentorship\LFX-Mentorship\build.sbt. Using presentation compiler with project's scala-library version: 2.13.16
+2025.08.09 22:07:51 INFO  no build target found for C:\Users\Admin\LFX-Mentorship\LFX-Mentorship\build.sbt. Using presentation compiler with project's scala-library version: 2.13.16
+2025.08.09 22:07:51 WARN  no build target for: C:\Users\Admin\LFX-Mentorship\LFX-Mentorship\build.sbt
+2025.08.09 22:07:53 INFO  time: code lens generation in 1.42s
+2025.08.09 22:07:55 INFO  no build target found for C:\Users\Admin\LFX-Mentorship\LFX-Mentorship\build.sbt. Using presentation compiler with project's scala-library version: 2.13.16
+2025.08.10 11:24:41 INFO  no build target found for C:\Users\Admin\LFX-Mentorship\LFX-Mentorship\build.sbt. Using presentation compiler with project's scala-library version: 2.13.16
+2025.08.10 11:24:41 INFO  no build target found for C:\Users\Admin\LFX-Mentorship\LFX-Mentorship\build.sbt. Using presentation compiler with project's scala-library version: 2.13.16
+2025.08.10 11:24:45 INFO  no build target found for C:\Users\Admin\LFX-Mentorship\LFX-Mentorship\build.sbt. Using presentation compiler with project's scala-library version: 2.13.16
+2025.08.10 11:25:15 INFO  no build target found for C:\Users\Admin\LFX-Mentorship\LFX-Mentorship\build.sbt. Using presentation compiler with project's scala-library version: 2.13.16
+2025.08.10 11:25:18 INFO  no build target found for C:\Users\Admin\LFX-Mentorship\LFX-Mentorship\build.sbt. Using presentation compiler with project's scala-library version: 2.13.16
+2025.08.10 11:25:18 INFO  no build target found for C:\Users\Admin\LFX-Mentorship\LFX-Mentorship\build.sbt. Using presentation compiler with project's scala-library version: 2.13.16
+2025.08.10 11:25:18 INFO  no build target found for C:\Users\Admin\LFX-Mentorship\LFX-Mentorship\build.sbt. Using presentation compiler with project's scala-library version: 2.13.16
+2025.08.10 11:25:20 INFO  no build target found for C:\Users\Admin\LFX-Mentorship\LFX-Mentorship\build.sbt. Using presentation compiler with project's scala-library version: 2.13.16
+2025.08.10 11:25:21 INFO  no build target found for C:\Users\Admin\LFX-Mentorship\LFX-Mentorship\build.sbt. Using presentation compiler with project's scala-library version: 2.13.16
+2025.08.10 11:25:22 INFO  no build target found for C:\Users\Admin\LFX-Mentorship\LFX-Mentorship\build.sbt. Using presentation compiler with project's scala-library version: 2.13.16
+2025.08.10 11:26:31 INFO  no build target found for C:\Users\Admin\LFX-Mentorship\LFX-Mentorship\build.sbt. Using presentation compiler with project's scala-library version: 2.13.16
+2025.08.10 11:26:32 INFO  no build target found for C:\Users\Admin\LFX-Mentorship\LFX-Mentorship\build.sbt. Using presentation compiler with project's scala-library version: 2.13.16
+2025.08.10 11:26:34 INFO  no build target found for C:\Users\Admin\LFX-Mentorship\LFX-Mentorship\build.sbt. Using presentation compiler with project's scala-library version: 2.13.16
+2025.08.10 11:26:34 INFO  no build target found for C:\Users\Admin\LFX-Mentorship\LFX-Mentorship\build.sbt. Using presentation compiler with project's scala-library version: 2.13.16
+2025.08.10 11:26:36 INFO  no build target found for C:\Users\Admin\LFX-Mentorship\LFX-Mentorship\build.sbt. Using presentation compiler with project's scala-library version: 2.13.16
+2025.08.10 11:26:37 INFO  no build target found for C:\Users\Admin\LFX-Mentorship\LFX-Mentorship\build.sbt. Using presentation compiler with project's scala-library version: 2.13.16
+2025.08.10 11:26:38 WARN  no build target for: C:\Users\Admin\LFX-Mentorship\LFX-Mentorship\build.sbt
+2025.08.10 11:26:38 INFO  no build target found for C:\Users\Admin\LFX-Mentorship\LFX-Mentorship\build.sbt. Using presentation compiler with project's scala-library version: 2.13.16
+2025.08.10 11:26:42 INFO  no build target found for C:\Users\Admin\LFX-Mentorship\LFX-Mentorship\build.sbt. Using presentation compiler with project's scala-library version: 2.13.16
+2025.08.10 11:26:50 INFO  no build target found for C:\Users\Admin\LFX-Mentorship\LFX-Mentorship\build.sbt. Using presentation compiler with project's scala-library version: 2.13.16
+2025.08.10 11:26:50 WARN  no build target for: C:\Users\Admin\LFX-Mentorship\LFX-Mentorship\build.sbt
+2025.08.10 11:26:50 INFO  no build target found for C:\Users\Admin\LFX-Mentorship\LFX-Mentorship\build.sbt. Using presentation compiler with project's scala-library version: 2.13.16
+2025.08.10 11:26:50 INFO  no build target found for C:\Users\Admin\LFX-Mentorship\LFX-Mentorship\build.sbt. Using presentation compiler with project's scala-library version: 2.13.16
+2025.08.10 11:26:53 INFO  no build target found for C:\Users\Admin\LFX-Mentorship\LFX-Mentorship\build.sbt. Using presentation compiler with project's scala-library version: 2.13.16
+2025.08.10 11:33:14 INFO  Shutting down server
+2025.08.10 11:33:14 INFO  shutting down Metals
+2025.08.10 11:33:14 INFO  Shut down connection with build server.
+2025.08.10 11:33:14 INFO  Exiting server
+2025.08.10 11:33:14 INFO  [0m[31m[E][0m Caught java.lang.NullPointerException: Cannot invoke "scala.collection.immutable.List.filterNot(scala.Function1)" because "sessions" is null
+2025.08.10 11:33:14 ERROR Bloop 'bsp' command exited with code 1. Something may be wrong with the current configuration.
+Running the [1mclean[0m sub-command to clear the working directory and remove caches might help.
+If the error persists, please report the issue as a bug and attach a log with increased verbosity by passing [1m-v -v -v[0m.
+2025.08.10 11:33:53 INFO  Started: Metals version 1.6.1 in folders 'C:\Users\Admin\LFX-Mentorship' for client Visual Studio Code 1.103.0.
+2025.08.10 11:33:53 INFO  no build target found for C:\Users\Admin\LFX-Mentorship\LFX-Mentorship\build.sbt. Using presentation compiler with project's scala-library version: 3.3.6
+2025.08.10 11:33:57 INFO  no build target found for C:\Users\Admin\LFX-Mentorship\LFX-Mentorship\build.sbt. Using presentation compiler with project's scala-library version: 3.3.6
+2025.08.10 11:33:57 INFO  Attempting to connect to the build server...
+2025.08.10 11:33:57 INFO  Found a Bloop server running
+2025.08.10 11:33:57 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at C:\Users\Admin\LFX-Mentorship\.metals\bsp.trace.json or C:\Users\Admin\AppData\Local\scalameta\metals\cache\bsp.trace.json
+2025.08.10 11:33:57 INFO  time: Connected to build server in 0.34s
+2025.08.10 11:33:57 INFO  Connected to Build server: Bloop v2.0.12
+2025.08.10 11:33:58 INFO  time: Imported build in 0.17s
+2025.08.10 11:33:57 WARN  2.13.8 is no longer supported in the current Metals versions, using the last known supported version 1.3.3
+2025.08.10 11:34:11 WARN  unexpected dependency: C:\Users\Admin\AppData\Local\Coursier\Cache\v1\https\repo1.maven.org\maven2\org\scala-lang\scala-library\2.13.8\scala-library-2.13.8-sources.jar
+2025.08.10 11:34:11 WARN  unexpected dependency: C:\Users\Admin\AppData\Local\Coursier\Cache\v1\https\repo1.maven.org\maven2\org\scala-lang\scala-reflect\2.13.8\scala-reflect-2.13.8-sources.jar
+2025.08.10 11:34:11 WARN  unexpected dependency: C:\Users\Admin\AppData\Local\Coursier\Cache\v1\https\repo1.maven.org\maven2\com\lihaoyi\os-lib_2.13\0.8.0\os-lib_2.13-0.8.0-sources.jar
+2025.08.10 11:34:11 WARN  unexpected dependency: C:\Users\Admin\AppData\Local\Coursier\Cache\v1\https\repo1.maven.org\maven2\com\lihaoyi\geny_2.13\0.7.0\geny_2.13-0.7.0-sources.jar
+2025.08.10 11:34:11 WARN  unexpected dependency: C:\Users\Admin\AppData\Local\Coursier\Cache\v1\https\repo1.maven.org\maven2\org\antlr\antlr4-runtime\4.9.3\antlr4-runtime-4.9.3-sources.jar
+2025.08.10 11:34:11 WARN  unexpected dependency: C:\Users\Admin\AppData\Local\Coursier\Cache\v1\https\repo1.maven.org\maven2\com\google\protobuf\protobuf-java\3.18.2\protobuf-java-3.18.2-sources.jar
+2025.08.10 11:34:11 WARN  unexpected dependency: C:\Users\Admin\AppData\Local\Coursier\Cache\v1\https\repo1.maven.org\maven2\com\github\scopt\scopt_2.13\3.7.1\scopt_2.13-3.7.1-sources.jar
+2025.08.10 11:34:11 WARN  unexpected dependency: C:\Users\Admin\AppData\Local\Coursier\Cache\v1\https\repo1.maven.org\maven2\net\jcazevedo\moultingyaml_2.13\0.4.2\moultingyaml_2.13-0.4.2-sources.jar
+2025.08.10 11:34:11 WARN  unexpected dependency: C:\Users\Admin\AppData\Local\Coursier\Cache\v1\https\repo1.maven.org\maven2\org\json4s\json4s-native_2.13\3.6.12\json4s-native_2.13-3.6.12-sources.jar
+2025.08.10 11:34:11 WARN  unexpected dependency: C:\Users\Admin\AppData\Local\Coursier\Cache\v1\https\repo1.maven.org\maven2\org\apache\commons\commons-text\1.9\commons-text-1.9-sources.jar
+2025.08.10 11:34:11 WARN  unexpected dependency: C:\Users\Admin\AppData\Local\Coursier\Cache\v1\https\repo1.maven.org\maven2\io\github\alexarchambault\data-class_2.13\0.2.5\data-class_2.13-0.2.5-sources.jar
+2025.08.10 11:34:11 WARN  unexpected dependency: C:\Users\Admin\AppData\Local\Coursier\Cache\v1\https\repo1.maven.org\maven2\org\scala-lang\modules\scala-parallel-collections_2.13\1.0.4\scala-parallel-collections_2.13-1.0.4-sources.jar
+2025.08.10 11:34:11 WARN  unexpected dependency: C:\Users\Admin\AppData\Local\Coursier\Cache\v1\https\repo1.maven.org\maven2\com\github\nscala-time\nscala-time_2.13\2.22.0\nscala-time_2.13-2.22.0-sources.jar
+2025.08.10 11:34:11 WARN  unexpected dependency: C:\Users\Admin\AppData\Local\Coursier\Cache\v1\https\repo1.maven.org\maven2\org\yaml\snakeyaml\1.26\snakeyaml-1.26-sources.jar
+2025.08.10 11:34:11 WARN  unexpected dependency: C:\Users\Admin\AppData\Local\Coursier\Cache\v1\https\repo1.maven.org\maven2\org\json4s\json4s-core_2.13\3.6.12\json4s-core_2.13-3.6.12-sources.jar
+2025.08.10 11:34:11 WARN  unexpected dependency: C:\Users\Admin\AppData\Local\Coursier\Cache\v1\https\repo1.maven.org\maven2\org\apache\commons\commons-lang3\3.11\commons-lang3-3.11-sources.jar
+2025.08.10 11:34:11 WARN  unexpected dependency: C:\Users\Admin\AppData\Local\Coursier\Cache\v1\https\repo1.maven.org\maven2\joda-time\joda-time\2.10.1\joda-time-2.10.1-sources.jar
+2025.08.10 11:34:11 WARN  unexpected dependency: C:\Users\Admin\AppData\Local\Coursier\Cache\v1\https\repo1.maven.org\maven2\org\joda\joda-convert\2.2.0\joda-convert-2.2.0-sources.jar
+2025.08.10 11:34:11 WARN  unexpected dependency: C:\Users\Admin\AppData\Local\Coursier\Cache\v1\https\repo1.maven.org\maven2\org\json4s\json4s-ast_2.13\3.6.12\json4s-ast_2.13-3.6.12-sources.jar
+2025.08.10 11:34:11 WARN  unexpected dependency: C:\Users\Admin\AppData\Local\Coursier\Cache\v1\https\repo1.maven.org\maven2\org\json4s\json4s-scalap_2.13\3.6.12\json4s-scalap_2.13-3.6.12-sources.jar
+2025.08.10 11:34:11 WARN  unexpected dependency: C:\Users\Admin\AppData\Local\Coursier\Cache\v1\https\repo1.maven.org\maven2\com\thoughtworks\paranamer\paranamer\2.8\paranamer-2.8-sources.jar
+2025.08.10 11:34:11 WARN  unexpected dependency: C:\Users\Admin\AppData\Local\Coursier\Cache\v1\https\repo1.maven.org\maven2\edu\berkeley\cs\chisel3_2.13\3.5.6\chisel3_2.13-3.5.6-sources.jar
+2025.08.10 11:34:11 WARN  unexpected dependency: C:\Users\Admin\AppData\Local\Coursier\Cache\v1\https\repo1.maven.org\maven2\edu\berkeley\cs\chiseltest_2.13\0.5.6\chiseltest_2.13-0.5.6-sources.jar
+2025.08.10 11:34:11 WARN  unexpected dependency: C:\Users\Admin\AppData\Local\Coursier\Cache\v1\https\repo1.maven.org\maven2\org\scalatest\scalatest_2.13\3.2.0\scalatest_2.13-3.2.0-sources.jar
+2025.08.10 11:34:11 WARN  unexpected dependency: C:\Users\Admin\AppData\Local\Coursier\Cache\v1\https\repo1.maven.org\maven2\edu\berkeley\cs\chisel3-macros_2.13\3.5.6\chisel3-macros_2.13-3.5.6-sources.jar
+2025.08.10 11:34:11 WARN  unexpected dependency: C:\Users\Admin\AppData\Local\Coursier\Cache\v1\https\repo1.maven.org\maven2\edu\berkeley\cs\chisel3-core_2.13\3.5.6\chisel3-core_2.13-3.5.6-sources.jar
+2025.08.10 11:34:11 WARN  unexpected dependency: C:\Users\Admin\AppData\Local\Coursier\Cache\v1\https\repo1.maven.org\maven2\edu\berkeley\cs\treadle_2.13\1.5.6\treadle_2.13-1.5.6-sources.jar
+2025.08.10 11:34:11 WARN  unexpected dependency: C:\Users\Admin\AppData\Local\Coursier\Cache\v1\https\repo1.maven.org\maven2\com\lihaoyi\utest_2.13\0.7.9\utest_2.13-0.7.9-sources.jar
+2025.08.10 11:34:11 WARN  unexpected dependency: C:\Users\Admin\AppData\Local\Coursier\Cache\v1\https\repo1.maven.org\maven2\net\java\dev\jna\jna\5.10.0\jna-5.10.0-sources.jar
+2025.08.10 11:34:11 WARN  unexpected dependency: C:\Users\Admin\AppData\Local\Coursier\Cache\v1\https\repo1.maven.org\maven2\org\scalatest\scalatest-core_2.13\3.2.0\scalatest-core_2.13-3.2.0-sources.jar
+2025.08.10 11:34:11 WARN  unexpected dependency: C:\Users\Admin\AppData\Local\Coursier\Cache\v1\https\repo1.maven.org\maven2\org\scalatest\scalatest-featurespec_2.13\3.2.0\scalatest-featurespec_2.13-3.2.0-sources.jar
+2025.08.10 11:34:11 WARN  unexpected dependency: C:\Users\Admin\AppData\Local\Coursier\Cache\v1\https\repo1.maven.org\maven2\org\scalatest\scalatest-flatspec_2.13\3.2.0\scalatest-flatspec_2.13-3.2.0-sources.jar
+2025.08.10 11:34:11 WARN  unexpected dependency: C:\Users\Admin\AppData\Local\Coursier\Cache\v1\https\repo1.maven.org\maven2\org\scalatest\scalatest-freespec_2.13\3.2.0\scalatest-freespec_2.13-3.2.0-sources.jar
+2025.08.10 11:34:11 WARN  unexpected dependency: C:\Users\Admin\AppData\Local\Coursier\Cache\v1\https\repo1.maven.org\maven2\org\scalatest\scalatest-funsuite_2.13\3.2.0\scalatest-funsuite_2.13-3.2.0-sources.jar
+2025.08.10 11:34:11 WARN  unexpected dependency: C:\Users\Admin\AppData\Local\Coursier\Cache\v1\https\repo1.maven.org\maven2\org\scalatest\scalatest-funspec_2.13\3.2.0\scalatest-funspec_2.13-3.2.0-sources.jar
+2025.08.10 11:34:11 WARN  unexpected dependency: C:\Users\Admin\AppData\Local\Coursier\Cache\v1\https\repo1.maven.org\maven2\org\scalatest\scalatest-propspec_2.13\3.2.0\scalatest-propspec_2.13-3.2.0-sources.jar
+2025.08.10 11:34:11 WARN  unexpected dependency: C:\Users\Admin\AppData\Local\Coursier\Cache\v1\https\repo1.maven.org\maven2\org\scalatest\scalatest-refspec_2.13\3.2.0\scalatest-refspec_2.13-3.2.0-sources.jar
+2025.08.10 11:34:11 WARN  unexpected dependency: C:\Users\Admin\AppData\Local\Coursier\Cache\v1\https\repo1.maven.org\maven2\org\scalatest\scalatest-wordspec_2.13\3.2.0\scalatest-wordspec_2.13-3.2.0-sources.jar
+2025.08.10 11:34:11 WARN  unexpected dependency: C:\Users\Admin\AppData\Local\Coursier\Cache\v1\https\repo1.maven.org\maven2\org\scalatest\scalatest-diagrams_2.13\3.2.0\scalatest-diagrams_2.13-3.2.0-sources.jar
+2025.08.10 11:34:11 WARN  unexpected dependency: C:\Users\Admin\AppData\Local\Coursier\Cache\v1\https\repo1.maven.org\maven2\org\scalatest\scalatest-matchers-core_2.13\3.2.0\scalatest-matchers-core_2.13-3.2.0-sources.jar
+2025.08.10 11:34:11 WARN  unexpected dependency: C:\Users\Admin\AppData\Local\Coursier\Cache\v1\https\repo1.maven.org\maven2\org\scalatest\scalatest-shouldmatchers_2.13\3.2.0\scalatest-shouldmatchers_2.13-3.2.0-sources.jar
+2025.08.10 11:34:11 WARN  unexpected dependency: C:\Users\Admin\AppData\Local\Coursier\Cache\v1\https\repo1.maven.org\maven2\org\scalatest\scalatest-mustmatchers_2.13\3.2.0\scalatest-mustmatchers_2.13-3.2.0-sources.jar
+2025.08.10 11:34:11 WARN  unexpected dependency: C:\Users\Admin\AppData\Local\Coursier\Cache\v1\https\repo1.maven.org\maven2\edu\berkeley\cs\firrtl_2.13\1.5.6\firrtl_2.13-1.5.6-sources.jar
+2025.08.10 11:34:11 WARN  unexpected dependency: C:\Users\Admin\AppData\Local\Coursier\Cache\v1\https\repo1.maven.org\maven2\org\scala-lang\modules\scala-jline\2.12.1\scala-jline-2.12.1-sources.jar
+2025.08.10 11:34:11 WARN  unexpected dependency: C:\Users\Admin\AppData\Local\Coursier\Cache\v1\https\repo1.maven.org\maven2\org\portable-scala\portable-scala-reflect_2.13\0.1.1\portable-scala-reflect_2.13-0.1.1-sources.jar
+2025.08.10 11:34:11 WARN  unexpected dependency: C:\Users\Admin\AppData\Local\Coursier\Cache\v1\https\repo1.maven.org\maven2\org\scalatest\scalatest-compatible\3.2.0\scalatest-compatible-3.2.0-sources.jar
+2025.08.10 11:34:11 WARN  unexpected dependency: C:\Users\Admin\AppData\Local\Coursier\Cache\v1\https\repo1.maven.org\maven2\org\scalactic\scalactic_2.13\3.2.0\scalactic_2.13-3.2.0-sources.jar
+2025.08.10 11:34:11 WARN  unexpected dependency: C:\Users\Admin\AppData\Local\Coursier\Cache\v1\https\repo1.maven.org\maven2\org\scala-lang\modules\scala-xml_2.13\1.2.0\scala-xml_2.13-1.2.0-sources.jar
+2025.08.10 11:34:11 WARN  unexpected dependency: C:\Users\Admin\AppData\Local\Coursier\Cache\v1\https\repo1.maven.org\maven2\org\fusesource\jansi\jansi\1.11\jansi-1.11-sources.jar
+2025.08.10 11:34:11 WARN  unexpected dependency: C:\Users\Admin\AppData\Local\Coursier\Cache\v1\https\repo1.maven.org\maven2\edu\berkeley\cs\chisel3_2.13\3.5.5\chisel3_2.13-3.5.5-sources.jar
+2025.08.10 11:34:11 WARN  unexpected dependency: C:\Users\Admin\AppData\Local\Coursier\Cache\v1\https\repo1.maven.org\maven2\edu\berkeley\cs\chisel3-macros_2.13\3.5.5\chisel3-macros_2.13-3.5.5-sources.jar
+2025.08.10 11:34:11 WARN  unexpected dependency: C:\Users\Admin\AppData\Local\Coursier\Cache\v1\https\repo1.maven.org\maven2\edu\berkeley\cs\chisel3-core_2.13\3.5.5\chisel3-core_2.13-3.5.5-sources.jar
+2025.08.10 11:34:11 WARN  unexpected dependency: C:\Users\Admin\AppData\Local\Coursier\Cache\v1\https\repo1.maven.org\maven2\edu\berkeley\cs\firrtl_2.13\1.5.5\firrtl_2.13-1.5.5-sources.jar
+2025.08.10 11:34:11 INFO  time: indexed workspace in 14s
+2025.08.10 11:34:12 WARN  no build target for: C:\Users\Admin\LFX-Mentorship\LFX-Mentorship\build.sbt
+2025.08.10 11:34:12 INFO  no build target found for C:\Users\Admin\LFX-Mentorship\LFX-Mentorship\build.sbt. Using presentation compiler with project's scala-library version: 2.13.16
+2025.08.10 11:34:11 INFO  no build target found for C:\Users\Admin\LFX-Mentorship\LFX-Mentorship\build.sbt. Using presentation compiler with project's scala-library version: 2.13.16
+2025.08.10 11:34:12 WARN  no build target for: C:\Users\Admin\LFX-Mentorship\LFX-Mentorship\build.sbt
+2025.08.10 11:34:14 INFO  time: code lens generation in 1.49s
+2025.08.10 11:34:14 INFO  time: code lens generation in 1.95s
+2025.08.10 11:34:16 INFO  no build target found for C:\Users\Admin\LFX-Mentorship\LFX-Mentorship\build.sbt. Using presentation compiler with project's scala-library version: 2.13.16
+2025.08.10 11:36:32 INFO  compiling root (1 scala source)
+2025.08.10 11:36:36 INFO  time: compiled root in 3.88s
+2025.08.10 11:36:38 INFO  compiling root (1 scala source)
+2025.08.10 11:36:38 INFO  time: compiled root in 0.14s
+2025.08.10 11:37:35 INFO  compiling root (1 scala source)
+2025.08.10 11:37:35 INFO  time: compiled root in 0.35s
+2025.08.10 11:42:30 INFO  compiling root (1 scala source)
+2025.08.10 11:42:30 INFO  time: compiled root in 0.13s
+2025.08.10 11:50:43 INFO  compiling root (2 scala sources)
+2025.08.10 11:50:43 INFO  time: compiled root in 0.17s
+Aug 10, 2025 11:51:04 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 139
+Aug 10, 2025 11:51:04 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 142
+Aug 10, 2025 11:51:05 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 143
+2025.08.10 11:51:08 INFO  compiling root (2 scala sources)
+2025.08.10 11:51:08 INFO  time: compiled root in 0.12s
+2025.08.10 11:52:47 INFO  compiling root (2 scala sources)
+2025.08.10 11:52:47 INFO  time: compiled root in 86ms
+2025.08.10 11:58:27 INFO  Shutting down server
+2025.08.10 11:58:27 INFO  shutting down Metals
+2025.08.10 11:58:27 INFO  Shut down connection with build server.
+2025.08.10 11:58:27 INFO  [0m[31m[E][0m Caught java.lang.NullPointerException: Cannot invoke "scala.collection.immutable.List.filterNot(scala.Function1)" because "sessions" is null
+2025.08.10 11:58:27 ERROR Bloop 'bsp' command exited with code 1. Something may be wrong with the current configuration.
+Running the [1mclean[0m sub-command to clear the working directory and remove caches might help.
+If the error persists, please report the issue as a bug and attach a log with increased verbosity by passing [1m-v -v -v[0m.
+2025.08.10 11:58:27 INFO  Exiting server
+2025.08.10 11:58:59 INFO  Started: Metals version 1.6.2 in folders 'C:\Users\Admin\LFX-Mentorship' for client Visual Studio Code 1.103.0.
+2025.08.10 11:59:00 INFO  no build target found for C:\Users\Admin\LFX-Mentorship\LFX-Mentorship\src\main\scala\stack\SVGen.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.08.10 11:59:00 INFO  Attempting to connect to the build server...
+2025.08.10 11:59:00 INFO  Found a Bloop server running
+2025.08.10 11:59:00 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at C:\Users\Admin\LFX-Mentorship\.metals\bsp.trace.json or C:\Users\Admin\AppData\Local\scalameta\metals\cache\bsp.trace.json
+2025.08.10 11:59:20 ERROR Timeout waiting for 'build/initialize' response
+2025.08.10 11:59:20 WARN  Retrying connection to the build server Bloop
+2025.08.10 11:59:20 INFO  Found a Bloop server running
+2025.08.10 11:59:20 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at C:\Users\Admin\LFX-Mentorship\.metals\bsp.trace.json or C:\Users\Admin\AppData\Local\scalameta\metals\cache\bsp.trace.json
+2025.08.10 11:59:40 ERROR Timeout waiting for 'build/initialize' response
+2025.08.10 11:59:40 WARN  Retrying connection to the build server Bloop
+2025.08.10 11:59:40 INFO  Found a Bloop server running
+2025.08.10 11:59:40 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at C:\Users\Admin\LFX-Mentorship\.metals\bsp.trace.json or C:\Users\Admin\AppData\Local\scalameta\metals\cache\bsp.trace.json
+2025.08.10 11:59:40 INFO  time: Connected to build server in 40s
+2025.08.10 11:59:40 INFO  Connected to Build server: Bloop v2.0.12
+2025.08.10 11:59:41 WARN  2.13.8 is no longer supported in the current Metals versions, using the last known supported version 1.3.3
+2025.08.10 11:59:50 WARN  unexpected dependency: C:\Users\Admin\AppData\Local\Coursier\Cache\v1\https\repo1.maven.org\maven2\org\scala-lang\scala-library\2.13.8\scala-library-2.13.8-sources.jar
+2025.08.10 11:59:50 WARN  unexpected dependency: C:\Users\Admin\AppData\Local\Coursier\Cache\v1\https\repo1.maven.org\maven2\org\scala-lang\scala-reflect\2.13.8\scala-reflect-2.13.8-sources.jar
+2025.08.10 11:59:50 WARN  unexpected dependency: C:\Users\Admin\AppData\Local\Coursier\Cache\v1\https\repo1.maven.org\maven2\com\lihaoyi\os-lib_2.13\0.8.0\os-lib_2.13-0.8.0-sources.jar
+2025.08.10 11:59:50 WARN  unexpected dependency: C:\Users\Admin\AppData\Local\Coursier\Cache\v1\https\repo1.maven.org\maven2\com\lihaoyi\geny_2.13\0.7.0\geny_2.13-0.7.0-sources.jar
+2025.08.10 11:59:50 WARN  unexpected dependency: C:\Users\Admin\AppData\Local\Coursier\Cache\v1\https\repo1.maven.org\maven2\org\antlr\antlr4-runtime\4.9.3\antlr4-runtime-4.9.3-sources.jar
+2025.08.10 11:59:50 WARN  unexpected dependency: C:\Users\Admin\AppData\Local\Coursier\Cache\v1\https\repo1.maven.org\maven2\com\google\protobuf\protobuf-java\3.18.2\protobuf-java-3.18.2-sources.jar
+2025.08.10 11:59:50 WARN  unexpected dependency: C:\Users\Admin\AppData\Local\Coursier\Cache\v1\https\repo1.maven.org\maven2\com\github\scopt\scopt_2.13\3.7.1\scopt_2.13-3.7.1-sources.jar
+2025.08.10 11:59:50 WARN  unexpected dependency: C:\Users\Admin\AppData\Local\Coursier\Cache\v1\https\repo1.maven.org\maven2\net\jcazevedo\moultingyaml_2.13\0.4.2\moultingyaml_2.13-0.4.2-sources.jar
+2025.08.10 11:59:50 WARN  unexpected dependency: C:\Users\Admin\AppData\Local\Coursier\Cache\v1\https\repo1.maven.org\maven2\org\json4s\json4s-native_2.13\3.6.12\json4s-native_2.13-3.6.12-sources.jar
+2025.08.10 11:59:50 WARN  unexpected dependency: C:\Users\Admin\AppData\Local\Coursier\Cache\v1\https\repo1.maven.org\maven2\org\apache\commons\commons-text\1.9\commons-text-1.9-sources.jar
+2025.08.10 11:59:50 WARN  unexpected dependency: C:\Users\Admin\AppData\Local\Coursier\Cache\v1\https\repo1.maven.org\maven2\io\github\alexarchambault\data-class_2.13\0.2.5\data-class_2.13-0.2.5-sources.jar
+2025.08.10 11:59:50 WARN  unexpected dependency: C:\Users\Admin\AppData\Local\Coursier\Cache\v1\https\repo1.maven.org\maven2\org\scala-lang\modules\scala-parallel-collections_2.13\1.0.4\scala-parallel-collections_2.13-1.0.4-sources.jar
+2025.08.10 11:59:50 WARN  unexpected dependency: C:\Users\Admin\AppData\Local\Coursier\Cache\v1\https\repo1.maven.org\maven2\com\github\nscala-time\nscala-time_2.13\2.22.0\nscala-time_2.13-2.22.0-sources.jar
+2025.08.10 11:59:50 WARN  unexpected dependency: C:\Users\Admin\AppData\Local\Coursier\Cache\v1\https\repo1.maven.org\maven2\org\yaml\snakeyaml\1.26\snakeyaml-1.26-sources.jar
+2025.08.10 11:59:50 WARN  unexpected dependency: C:\Users\Admin\AppData\Local\Coursier\Cache\v1\https\repo1.maven.org\maven2\org\json4s\json4s-core_2.13\3.6.12\json4s-core_2.13-3.6.12-sources.jar
+2025.08.10 11:59:50 WARN  unexpected dependency: C:\Users\Admin\AppData\Local\Coursier\Cache\v1\https\repo1.maven.org\maven2\org\apache\commons\commons-lang3\3.11\commons-lang3-3.11-sources.jar
+2025.08.10 11:59:50 WARN  unexpected dependency: C:\Users\Admin\AppData\Local\Coursier\Cache\v1\https\repo1.maven.org\maven2\joda-time\joda-time\2.10.1\joda-time-2.10.1-sources.jar
+2025.08.10 11:59:50 WARN  unexpected dependency: C:\Users\Admin\AppData\Local\Coursier\Cache\v1\https\repo1.maven.org\maven2\org\joda\joda-convert\2.2.0\joda-convert-2.2.0-sources.jar
+2025.08.10 11:59:50 WARN  unexpected dependency: C:\Users\Admin\AppData\Local\Coursier\Cache\v1\https\repo1.maven.org\maven2\org\json4s\json4s-ast_2.13\3.6.12\json4s-ast_2.13-3.6.12-sources.jar
+2025.08.10 11:59:50 WARN  unexpected dependency: C:\Users\Admin\AppData\Local\Coursier\Cache\v1\https\repo1.maven.org\maven2\org\json4s\json4s-scalap_2.13\3.6.12\json4s-scalap_2.13-3.6.12-sources.jar
+2025.08.10 11:59:50 WARN  unexpected dependency: C:\Users\Admin\AppData\Local\Coursier\Cache\v1\https\repo1.maven.org\maven2\com\thoughtworks\paranamer\paranamer\2.8\paranamer-2.8-sources.jar
+2025.08.10 11:59:50 WARN  unexpected dependency: C:\Users\Admin\AppData\Local\Coursier\Cache\v1\https\repo1.maven.org\maven2\edu\berkeley\cs\chisel3_2.13\3.5.6\chisel3_2.13-3.5.6-sources.jar
+2025.08.10 11:59:50 WARN  unexpected dependency: C:\Users\Admin\AppData\Local\Coursier\Cache\v1\https\repo1.maven.org\maven2\edu\berkeley\cs\chiseltest_2.13\0.5.6\chiseltest_2.13-0.5.6-sources.jar
+2025.08.10 11:59:50 WARN  unexpected dependency: C:\Users\Admin\AppData\Local\Coursier\Cache\v1\https\repo1.maven.org\maven2\org\scalatest\scalatest_2.13\3.2.0\scalatest_2.13-3.2.0-sources.jar
+2025.08.10 11:59:50 WARN  unexpected dependency: C:\Users\Admin\AppData\Local\Coursier\Cache\v1\https\repo1.maven.org\maven2\edu\berkeley\cs\chisel3-macros_2.13\3.5.6\chisel3-macros_2.13-3.5.6-sources.jar
+2025.08.10 11:59:50 WARN  unexpected dependency: C:\Users\Admin\AppData\Local\Coursier\Cache\v1\https\repo1.maven.org\maven2\edu\berkeley\cs\chisel3-core_2.13\3.5.6\chisel3-core_2.13-3.5.6-sources.jar
+2025.08.10 11:59:50 WARN  unexpected dependency: C:\Users\Admin\AppData\Local\Coursier\Cache\v1\https\repo1.maven.org\maven2\edu\berkeley\cs\treadle_2.13\1.5.6\treadle_2.13-1.5.6-sources.jar
+2025.08.10 11:59:50 WARN  unexpected dependency: C:\Users\Admin\AppData\Local\Coursier\Cache\v1\https\repo1.maven.org\maven2\com\lihaoyi\utest_2.13\0.7.9\utest_2.13-0.7.9-sources.jar
+2025.08.10 11:59:50 WARN  unexpected dependency: C:\Users\Admin\AppData\Local\Coursier\Cache\v1\https\repo1.maven.org\maven2\net\java\dev\jna\jna\5.10.0\jna-5.10.0-sources.jar
+2025.08.10 11:59:50 WARN  unexpected dependency: C:\Users\Admin\AppData\Local\Coursier\Cache\v1\https\repo1.maven.org\maven2\org\scalatest\scalatest-core_2.13\3.2.0\scalatest-core_2.13-3.2.0-sources.jar
+2025.08.10 11:59:50 WARN  unexpected dependency: C:\Users\Admin\AppData\Local\Coursier\Cache\v1\https\repo1.maven.org\maven2\org\scalatest\scalatest-featurespec_2.13\3.2.0\scalatest-featurespec_2.13-3.2.0-sources.jar
+2025.08.10 11:59:50 WARN  unexpected dependency: C:\Users\Admin\AppData\Local\Coursier\Cache\v1\https\repo1.maven.org\maven2\org\scalatest\scalatest-flatspec_2.13\3.2.0\scalatest-flatspec_2.13-3.2.0-sources.jar
+2025.08.10 11:59:50 WARN  unexpected dependency: C:\Users\Admin\AppData\Local\Coursier\Cache\v1\https\repo1.maven.org\maven2\org\scalatest\scalatest-freespec_2.13\3.2.0\scalatest-freespec_2.13-3.2.0-sources.jar
+2025.08.10 11:59:50 WARN  unexpected dependency: C:\Users\Admin\AppData\Local\Coursier\Cache\v1\https\repo1.maven.org\maven2\org\scalatest\scalatest-funsuite_2.13\3.2.0\scalatest-funsuite_2.13-3.2.0-sources.jar
+2025.08.10 11:59:50 WARN  unexpected dependency: C:\Users\Admin\AppData\Local\Coursier\Cache\v1\https\repo1.maven.org\maven2\org\scalatest\scalatest-funspec_2.13\3.2.0\scalatest-funspec_2.13-3.2.0-sources.jar
+2025.08.10 11:59:50 WARN  unexpected dependency: C:\Users\Admin\AppData\Local\Coursier\Cache\v1\https\repo1.maven.org\maven2\org\scalatest\scalatest-propspec_2.13\3.2.0\scalatest-propspec_2.13-3.2.0-sources.jar
+2025.08.10 11:59:50 WARN  unexpected dependency: C:\Users\Admin\AppData\Local\Coursier\Cache\v1\https\repo1.maven.org\maven2\org\scalatest\scalatest-refspec_2.13\3.2.0\scalatest-refspec_2.13-3.2.0-sources.jar
+2025.08.10 11:59:50 WARN  unexpected dependency: C:\Users\Admin\AppData\Local\Coursier\Cache\v1\https\repo1.maven.org\maven2\org\scalatest\scalatest-wordspec_2.13\3.2.0\scalatest-wordspec_2.13-3.2.0-sources.jar
+2025.08.10 11:59:50 WARN  unexpected dependency: C:\Users\Admin\AppData\Local\Coursier\Cache\v1\https\repo1.maven.org\maven2\org\scalatest\scalatest-diagrams_2.13\3.2.0\scalatest-diagrams_2.13-3.2.0-sources.jar
+2025.08.10 11:59:50 WARN  unexpected dependency: C:\Users\Admin\AppData\Local\Coursier\Cache\v1\https\repo1.maven.org\maven2\org\scalatest\scalatest-matchers-core_2.13\3.2.0\scalatest-matchers-core_2.13-3.2.0-sources.jar
+2025.08.10 11:59:50 WARN  unexpected dependency: C:\Users\Admin\AppData\Local\Coursier\Cache\v1\https\repo1.maven.org\maven2\org\scalatest\scalatest-shouldmatchers_2.13\3.2.0\scalatest-shouldmatchers_2.13-3.2.0-sources.jar
+2025.08.10 11:59:50 WARN  unexpected dependency: C:\Users\Admin\AppData\Local\Coursier\Cache\v1\https\repo1.maven.org\maven2\org\scalatest\scalatest-mustmatchers_2.13\3.2.0\scalatest-mustmatchers_2.13-3.2.0-sources.jar
+2025.08.10 11:59:50 WARN  unexpected dependency: C:\Users\Admin\AppData\Local\Coursier\Cache\v1\https\repo1.maven.org\maven2\edu\berkeley\cs\firrtl_2.13\1.5.6\firrtl_2.13-1.5.6-sources.jar
+2025.08.10 11:59:50 WARN  unexpected dependency: C:\Users\Admin\AppData\Local\Coursier\Cache\v1\https\repo1.maven.org\maven2\org\scala-lang\modules\scala-jline\2.12.1\scala-jline-2.12.1-sources.jar
+2025.08.10 11:59:50 WARN  unexpected dependency: C:\Users\Admin\AppData\Local\Coursier\Cache\v1\https\repo1.maven.org\maven2\org\portable-scala\portable-scala-reflect_2.13\0.1.1\portable-scala-reflect_2.13-0.1.1-sources.jar
+2025.08.10 11:59:50 WARN  unexpected dependency: C:\Users\Admin\AppData\Local\Coursier\Cache\v1\https\repo1.maven.org\maven2\org\scalatest\scalatest-compatible\3.2.0\scalatest-compatible-3.2.0-sources.jar
+2025.08.10 11:59:50 WARN  unexpected dependency: C:\Users\Admin\AppData\Local\Coursier\Cache\v1\https\repo1.maven.org\maven2\org\scalactic\scalactic_2.13\3.2.0\scalactic_2.13-3.2.0-sources.jar
+2025.08.10 11:59:50 WARN  unexpected dependency: C:\Users\Admin\AppData\Local\Coursier\Cache\v1\https\repo1.maven.org\maven2\org\scala-lang\modules\scala-xml_2.13\1.2.0\scala-xml_2.13-1.2.0-sources.jar
+2025.08.10 11:59:50 WARN  unexpected dependency: C:\Users\Admin\AppData\Local\Coursier\Cache\v1\https\repo1.maven.org\maven2\org\fusesource\jansi\jansi\1.11\jansi-1.11-sources.jar
+2025.08.10 11:59:50 WARN  unexpected dependency: C:\Users\Admin\AppData\Local\Coursier\Cache\v1\https\repo1.maven.org\maven2\edu\berkeley\cs\chisel3_2.13\3.5.5\chisel3_2.13-3.5.5-sources.jar
+2025.08.10 11:59:50 WARN  unexpected dependency: C:\Users\Admin\AppData\Local\Coursier\Cache\v1\https\repo1.maven.org\maven2\edu\berkeley\cs\chisel3-macros_2.13\3.5.5\chisel3-macros_2.13-3.5.5-sources.jar
+2025.08.10 11:59:50 WARN  unexpected dependency: C:\Users\Admin\AppData\Local\Coursier\Cache\v1\https\repo1.maven.org\maven2\edu\berkeley\cs\chisel3-core_2.13\3.5.5\chisel3-core_2.13-3.5.5-sources.jar
+2025.08.10 11:59:50 WARN  unexpected dependency: C:\Users\Admin\AppData\Local\Coursier\Cache\v1\https\repo1.maven.org\maven2\edu\berkeley\cs\firrtl_2.13\1.5.5\firrtl_2.13-1.5.5-sources.jar
+2025.08.10 11:59:50 INFO  time: indexed workspace in 9.71s
+2025.08.10 11:59:50 INFO  compiling root (2 scala sources)
+2025.08.10 11:59:52 INFO  time: compiled root in 1.36s
+2025.08.10 12:04:00 INFO  Shutting down server
+2025.08.10 12:04:00 INFO  shutting down Metals
+2025.08.10 12:04:00 INFO  Shut down connection with build server.
+2025.08.10 12:04:00 INFO  [0m[31m[E][0m Caught java.lang.NullPointerException: Cannot invoke "scala.collection.immutable.List.filterNot(scala.Function1)" because "sessions" is null
+2025.08.10 12:04:00 ERROR Bloop 'bsp' command exited with code 1. Something may be wrong with the current configuration.
+Running the [1mclean[0m sub-command to clear the working directory and remove caches might help.
+If the error persists, please report the issue as a bug and attach a log with increased verbosity by passing [1m-v -v -v[0m.
+2025.08.10 12:04:00 INFO  Exiting server
+2025.08.10 12:04:22 INFO  Started: Metals version 1.6.2 in folders 'C:\Users\Admin\LFX-Mentorship' for client Visual Studio Code 1.103.0.
+2025.08.10 12:04:23 INFO  no build target found for C:\Users\Admin\LFX-Mentorship\LFX-Mentorship\src\main\scala\stack\SVGen.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.08.10 12:04:23 INFO  Attempting to connect to the build server...
+2025.08.10 12:04:23 INFO  Found a Bloop server running
+2025.08.10 12:04:24 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at C:\Users\Admin\LFX-Mentorship\.metals\bsp.trace.json or C:\Users\Admin\AppData\Local\scalameta\metals\cache\bsp.trace.json
+2025.08.10 12:04:24 INFO  time: Connected to build server in 0.42s
+2025.08.10 12:04:24 INFO  Connected to Build server: Bloop v2.0.12
+2025.08.10 12:04:24 INFO  time: Imported build in 0.21s
+2025.08.10 12:04:24 WARN  2.13.8 is no longer supported in the current Metals versions, using the last known supported version 1.3.3
+2025.08.10 12:04:27 WARN  unexpected dependency: C:\Users\Admin\AppData\Local\Coursier\Cache\v1\https\repo1.maven.org\maven2\org\scala-lang\scala-library\2.13.8\scala-library-2.13.8-sources.jar
+2025.08.10 12:04:27 WARN  unexpected dependency: C:\Users\Admin\AppData\Local\Coursier\Cache\v1\https\repo1.maven.org\maven2\edu\berkeley\cs\chisel3_2.13\3.5.5\chisel3_2.13-3.5.5-sources.jar
+2025.08.10 12:04:27 WARN  unexpected dependency: C:\Users\Admin\AppData\Local\Coursier\Cache\v1\https\repo1.maven.org\maven2\edu\berkeley\cs\chisel3-macros_2.13\3.5.5\chisel3-macros_2.13-3.5.5-sources.jar
+2025.08.10 12:04:27 WARN  unexpected dependency: C:\Users\Admin\AppData\Local\Coursier\Cache\v1\https\repo1.maven.org\maven2\edu\berkeley\cs\chisel3-core_2.13\3.5.5\chisel3-core_2.13-3.5.5-sources.jar
+2025.08.10 12:04:27 WARN  unexpected dependency: C:\Users\Admin\AppData\Local\Coursier\Cache\v1\https\repo1.maven.org\maven2\org\scala-lang\scala-reflect\2.13.8\scala-reflect-2.13.8-sources.jar
+2025.08.10 12:04:27 WARN  unexpected dependency: C:\Users\Admin\AppData\Local\Coursier\Cache\v1\https\repo1.maven.org\maven2\com\lihaoyi\os-lib_2.13\0.8.0\os-lib_2.13-0.8.0-sources.jar
+2025.08.10 12:04:27 WARN  unexpected dependency: C:\Users\Admin\AppData\Local\Coursier\Cache\v1\https\repo1.maven.org\maven2\edu\berkeley\cs\firrtl_2.13\1.5.5\firrtl_2.13-1.5.5-sources.jar
+2025.08.10 12:04:27 WARN  unexpected dependency: C:\Users\Admin\AppData\Local\Coursier\Cache\v1\https\repo1.maven.org\maven2\com\lihaoyi\geny_2.13\0.7.0\geny_2.13-0.7.0-sources.jar
+2025.08.10 12:04:27 WARN  unexpected dependency: C:\Users\Admin\AppData\Local\Coursier\Cache\v1\https\repo1.maven.org\maven2\org\antlr\antlr4-runtime\4.9.3\antlr4-runtime-4.9.3-sources.jar
+2025.08.10 12:04:27 WARN  unexpected dependency: C:\Users\Admin\AppData\Local\Coursier\Cache\v1\https\repo1.maven.org\maven2\com\google\protobuf\protobuf-java\3.18.2\protobuf-java-3.18.2-sources.jar
+2025.08.10 12:04:27 WARN  unexpected dependency: C:\Users\Admin\AppData\Local\Coursier\Cache\v1\https\repo1.maven.org\maven2\com\github\scopt\scopt_2.13\3.7.1\scopt_2.13-3.7.1-sources.jar
+2025.08.10 12:04:27 WARN  unexpected dependency: C:\Users\Admin\AppData\Local\Coursier\Cache\v1\https\repo1.maven.org\maven2\net\jcazevedo\moultingyaml_2.13\0.4.2\moultingyaml_2.13-0.4.2-sources.jar
+2025.08.10 12:04:27 WARN  unexpected dependency: C:\Users\Admin\AppData\Local\Coursier\Cache\v1\https\repo1.maven.org\maven2\org\json4s\json4s-native_2.13\3.6.12\json4s-native_2.13-3.6.12-sources.jar
+2025.08.10 12:04:27 WARN  unexpected dependency: C:\Users\Admin\AppData\Local\Coursier\Cache\v1\https\repo1.maven.org\maven2\org\apache\commons\commons-text\1.9\commons-text-1.9-sources.jar
+2025.08.10 12:04:27 WARN  unexpected dependency: C:\Users\Admin\AppData\Local\Coursier\Cache\v1\https\repo1.maven.org\maven2\io\github\alexarchambault\data-class_2.13\0.2.5\data-class_2.13-0.2.5-sources.jar
+2025.08.10 12:04:27 WARN  unexpected dependency: C:\Users\Admin\AppData\Local\Coursier\Cache\v1\https\repo1.maven.org\maven2\org\scala-lang\modules\scala-parallel-collections_2.13\1.0.4\scala-parallel-collections_2.13-1.0.4-sources.jar
+2025.08.10 12:04:27 WARN  unexpected dependency: C:\Users\Admin\AppData\Local\Coursier\Cache\v1\https\repo1.maven.org\maven2\com\github\nscala-time\nscala-time_2.13\2.22.0\nscala-time_2.13-2.22.0-sources.jar
+2025.08.10 12:04:27 WARN  unexpected dependency: C:\Users\Admin\AppData\Local\Coursier\Cache\v1\https\repo1.maven.org\maven2\org\yaml\snakeyaml\1.26\snakeyaml-1.26-sources.jar
+2025.08.10 12:04:27 WARN  unexpected dependency: C:\Users\Admin\AppData\Local\Coursier\Cache\v1\https\repo1.maven.org\maven2\org\json4s\json4s-core_2.13\3.6.12\json4s-core_2.13-3.6.12-sources.jar
+2025.08.10 12:04:27 WARN  unexpected dependency: C:\Users\Admin\AppData\Local\Coursier\Cache\v1\https\repo1.maven.org\maven2\org\apache\commons\commons-lang3\3.11\commons-lang3-3.11-sources.jar
+2025.08.10 12:04:27 WARN  unexpected dependency: C:\Users\Admin\AppData\Local\Coursier\Cache\v1\https\repo1.maven.org\maven2\joda-time\joda-time\2.10.1\joda-time-2.10.1-sources.jar
+2025.08.10 12:04:27 WARN  unexpected dependency: C:\Users\Admin\AppData\Local\Coursier\Cache\v1\https\repo1.maven.org\maven2\org\joda\joda-convert\2.2.0\joda-convert-2.2.0-sources.jar
+2025.08.10 12:04:27 WARN  unexpected dependency: C:\Users\Admin\AppData\Local\Coursier\Cache\v1\https\repo1.maven.org\maven2\org\json4s\json4s-ast_2.13\3.6.12\json4s-ast_2.13-3.6.12-sources.jar
+2025.08.10 12:04:27 WARN  unexpected dependency: C:\Users\Admin\AppData\Local\Coursier\Cache\v1\https\repo1.maven.org\maven2\org\json4s\json4s-scalap_2.13\3.6.12\json4s-scalap_2.13-3.6.12-sources.jar
+2025.08.10 12:04:27 WARN  unexpected dependency: C:\Users\Admin\AppData\Local\Coursier\Cache\v1\https\repo1.maven.org\maven2\com\thoughtworks\paranamer\paranamer\2.8\paranamer-2.8-sources.jar
+2025.08.10 12:04:27 WARN  unexpected dependency: C:\Users\Admin\AppData\Local\Coursier\Cache\v1\https\repo1.maven.org\maven2\edu\berkeley\cs\chisel3_2.13\3.5.6\chisel3_2.13-3.5.6-sources.jar
+2025.08.10 12:04:27 WARN  unexpected dependency: C:\Users\Admin\AppData\Local\Coursier\Cache\v1\https\repo1.maven.org\maven2\edu\berkeley\cs\chiseltest_2.13\0.5.6\chiseltest_2.13-0.5.6-sources.jar
+2025.08.10 12:04:27 WARN  unexpected dependency: C:\Users\Admin\AppData\Local\Coursier\Cache\v1\https\repo1.maven.org\maven2\org\scalatest\scalatest_2.13\3.2.0\scalatest_2.13-3.2.0-sources.jar
+2025.08.10 12:04:27 WARN  unexpected dependency: C:\Users\Admin\AppData\Local\Coursier\Cache\v1\https\repo1.maven.org\maven2\edu\berkeley\cs\chisel3-macros_2.13\3.5.6\chisel3-macros_2.13-3.5.6-sources.jar
+2025.08.10 12:04:27 WARN  unexpected dependency: C:\Users\Admin\AppData\Local\Coursier\Cache\v1\https\repo1.maven.org\maven2\edu\berkeley\cs\chisel3-core_2.13\3.5.6\chisel3-core_2.13-3.5.6-sources.jar
+2025.08.10 12:04:27 WARN  unexpected dependency: C:\Users\Admin\AppData\Local\Coursier\Cache\v1\https\repo1.maven.org\maven2\edu\berkeley\cs\treadle_2.13\1.5.6\treadle_2.13-1.5.6-sources.jar
+2025.08.10 12:04:27 WARN  unexpected dependency: C:\Users\Admin\AppData\Local\Coursier\Cache\v1\https\repo1.maven.org\maven2\com\lihaoyi\utest_2.13\0.7.9\utest_2.13-0.7.9-sources.jar
+2025.08.10 12:04:27 WARN  unexpected dependency: C:\Users\Admin\AppData\Local\Coursier\Cache\v1\https\repo1.maven.org\maven2\net\java\dev\jna\jna\5.10.0\jna-5.10.0-sources.jar
+2025.08.10 12:04:27 WARN  unexpected dependency: C:\Users\Admin\AppData\Local\Coursier\Cache\v1\https\repo1.maven.org\maven2\org\scalatest\scalatest-core_2.13\3.2.0\scalatest-core_2.13-3.2.0-sources.jar
+2025.08.10 12:04:27 WARN  unexpected dependency: C:\Users\Admin\AppData\Local\Coursier\Cache\v1\https\repo1.maven.org\maven2\org\scalatest\scalatest-featurespec_2.13\3.2.0\scalatest-featurespec_2.13-3.2.0-sources.jar
+2025.08.10 12:04:27 WARN  unexpected dependency: C:\Users\Admin\AppData\Local\Coursier\Cache\v1\https\repo1.maven.org\maven2\org\scalatest\scalatest-flatspec_2.13\3.2.0\scalatest-flatspec_2.13-3.2.0-sources.jar
+2025.08.10 12:04:27 WARN  unexpected dependency: C:\Users\Admin\AppData\Local\Coursier\Cache\v1\https\repo1.maven.org\maven2\org\scalatest\scalatest-freespec_2.13\3.2.0\scalatest-freespec_2.13-3.2.0-sources.jar
+2025.08.10 12:04:27 WARN  unexpected dependency: C:\Users\Admin\AppData\Local\Coursier\Cache\v1\https\repo1.maven.org\maven2\org\scalatest\scalatest-funsuite_2.13\3.2.0\scalatest-funsuite_2.13-3.2.0-sources.jar
+2025.08.10 12:04:27 WARN  unexpected dependency: C:\Users\Admin\AppData\Local\Coursier\Cache\v1\https\repo1.maven.org\maven2\org\scalatest\scalatest-funspec_2.13\3.2.0\scalatest-funspec_2.13-3.2.0-sources.jar
+2025.08.10 12:04:27 WARN  unexpected dependency: C:\Users\Admin\AppData\Local\Coursier\Cache\v1\https\repo1.maven.org\maven2\org\scalatest\scalatest-propspec_2.13\3.2.0\scalatest-propspec_2.13-3.2.0-sources.jar
+2025.08.10 12:04:27 WARN  unexpected dependency: C:\Users\Admin\AppData\Local\Coursier\Cache\v1\https\repo1.maven.org\maven2\org\scalatest\scalatest-refspec_2.13\3.2.0\scalatest-refspec_2.13-3.2.0-sources.jar
+2025.08.10 12:04:27 WARN  unexpected dependency: C:\Users\Admin\AppData\Local\Coursier\Cache\v1\https\repo1.maven.org\maven2\org\scalatest\scalatest-wordspec_2.13\3.2.0\scalatest-wordspec_2.13-3.2.0-sources.jar
+2025.08.10 12:04:27 WARN  unexpected dependency: C:\Users\Admin\AppData\Local\Coursier\Cache\v1\https\repo1.maven.org\maven2\org\scalatest\scalatest-diagrams_2.13\3.2.0\scalatest-diagrams_2.13-3.2.0-sources.jar
+2025.08.10 12:04:27 WARN  unexpected dependency: C:\Users\Admin\AppData\Local\Coursier\Cache\v1\https\repo1.maven.org\maven2\org\scalatest\scalatest-matchers-core_2.13\3.2.0\scalatest-matchers-core_2.13-3.2.0-sources.jar
+2025.08.10 12:04:27 WARN  unexpected dependency: C:\Users\Admin\AppData\Local\Coursier\Cache\v1\https\repo1.maven.org\maven2\org\scalatest\scalatest-shouldmatchers_2.13\3.2.0\scalatest-shouldmatchers_2.13-3.2.0-sources.jar
+2025.08.10 12:04:27 WARN  unexpected dependency: C:\Users\Admin\AppData\Local\Coursier\Cache\v1\https\repo1.maven.org\maven2\org\scalatest\scalatest-mustmatchers_2.13\3.2.0\scalatest-mustmatchers_2.13-3.2.0-sources.jar
+2025.08.10 12:04:27 WARN  unexpected dependency: C:\Users\Admin\AppData\Local\Coursier\Cache\v1\https\repo1.maven.org\maven2\edu\berkeley\cs\firrtl_2.13\1.5.6\firrtl_2.13-1.5.6-sources.jar
+2025.08.10 12:04:27 WARN  unexpected dependency: C:\Users\Admin\AppData\Local\Coursier\Cache\v1\https\repo1.maven.org\maven2\org\scala-lang\modules\scala-jline\2.12.1\scala-jline-2.12.1-sources.jar
+2025.08.10 12:04:27 WARN  unexpected dependency: C:\Users\Admin\AppData\Local\Coursier\Cache\v1\https\repo1.maven.org\maven2\org\portable-scala\portable-scala-reflect_2.13\0.1.1\portable-scala-reflect_2.13-0.1.1-sources.jar
+2025.08.10 12:04:27 WARN  unexpected dependency: C:\Users\Admin\AppData\Local\Coursier\Cache\v1\https\repo1.maven.org\maven2\org\scalatest\scalatest-compatible\3.2.0\scalatest-compatible-3.2.0-sources.jar
+2025.08.10 12:04:27 WARN  unexpected dependency: C:\Users\Admin\AppData\Local\Coursier\Cache\v1\https\repo1.maven.org\maven2\org\scalactic\scalactic_2.13\3.2.0\scalactic_2.13-3.2.0-sources.jar
+2025.08.10 12:04:27 WARN  unexpected dependency: C:\Users\Admin\AppData\Local\Coursier\Cache\v1\https\repo1.maven.org\maven2\org\scala-lang\modules\scala-xml_2.13\1.2.0\scala-xml_2.13-1.2.0-sources.jar
+2025.08.10 12:04:27 WARN  unexpected dependency: C:\Users\Admin\AppData\Local\Coursier\Cache\v1\https\repo1.maven.org\maven2\org\fusesource\jansi\jansi\1.11\jansi-1.11-sources.jar
+2025.08.10 12:04:27 INFO  time: indexed workspace in 3.13s
+2025.08.10 12:04:28 INFO  compiling root (2 scala sources)
+2025.08.10 12:04:28 INFO  time: compiled root in 0.35s
+Aug 10, 2025 12:05:13 PM org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint notify
+INFO: Unsupported notification method: $/setTrace
+2025.08.10 12:19:39 INFO  Shutting down server
+2025.08.10 12:19:39 INFO  shutting down Metals
+2025.08.10 12:19:39 INFO  Shut down connection with build server.
+2025.08.10 12:19:39 INFO  [0m[31m[E][0m Caught java.lang.NullPointerException: Cannot invoke "scala.collection.immutable.List.filterNot(scala.Function1)" because "sessions" is null
+2025.08.10 12:19:39 ERROR Bloop 'bsp' command exited with code 1. Something may be wrong with the current configuration.
+Running the [1mclean[0m sub-command to clear the working directory and remove caches might help.
+If the error persists, please report the issue as a bug and attach a log with increased verbosity by passing [1m-v -v -v[0m.
+2025.08.10 12:19:39 INFO  Exiting server
+2025.08.10 14:01:29 INFO  Started: Metals version 1.6.2 in folders 'C:\Users\Admin\LFX-Mentorship' for client Visual Studio Code 1.103.0.
+2025.08.10 14:01:30 INFO  no build target found for C:\Users\Admin\LFX-Mentorship\LFX-Mentorship\src\main\scala\stack\SVGen.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.08.10 14:01:31 INFO  Attempting to connect to the build server...
+2025.08.10 14:01:31 INFO  No running Bloop server found, starting one.
+2025.08.10 14:01:41 INFO  Starting compilation server
+2025.08.10 14:01:50 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at C:\Users\Admin\LFX-Mentorship\.metals\bsp.trace.json or C:\Users\Admin\AppData\Local\scalameta\metals\cache\bsp.trace.json
+2025.08.10 14:01:55 INFO  time: Connected to build server in 24s
+2025.08.10 14:01:55 INFO  Connected to Build server: Bloop v2.0.13
+2025.08.10 14:01:56 INFO  time: Imported build in 0.29s
+2025.08.10 14:01:56 WARN  2.13.8 is no longer supported in the current Metals versions, using the last known supported version 1.3.3
+2025.08.10 14:02:09 WARN  unexpected dependency: C:\Users\Admin\AppData\Local\Coursier\Cache\v1\https\repo1.maven.org\maven2\org\scala-lang\scala-library\2.13.8\scala-library-2.13.8-sources.jar
+2025.08.10 14:02:09 WARN  unexpected dependency: C:\Users\Admin\AppData\Local\Coursier\Cache\v1\https\repo1.maven.org\maven2\org\scala-lang\scala-reflect\2.13.8\scala-reflect-2.13.8-sources.jar
+2025.08.10 14:02:09 WARN  unexpected dependency: C:\Users\Admin\AppData\Local\Coursier\Cache\v1\https\repo1.maven.org\maven2\com\lihaoyi\os-lib_2.13\0.8.0\os-lib_2.13-0.8.0-sources.jar
+2025.08.10 14:02:09 WARN  unexpected dependency: C:\Users\Admin\AppData\Local\Coursier\Cache\v1\https\repo1.maven.org\maven2\com\lihaoyi\geny_2.13\0.7.0\geny_2.13-0.7.0-sources.jar
+2025.08.10 14:02:09 WARN  unexpected dependency: C:\Users\Admin\AppData\Local\Coursier\Cache\v1\https\repo1.maven.org\maven2\org\antlr\antlr4-runtime\4.9.3\antlr4-runtime-4.9.3-sources.jar
+2025.08.10 14:02:09 WARN  unexpected dependency: C:\Users\Admin\AppData\Local\Coursier\Cache\v1\https\repo1.maven.org\maven2\com\google\protobuf\protobuf-java\3.18.2\protobuf-java-3.18.2-sources.jar
+2025.08.10 14:02:09 WARN  unexpected dependency: C:\Users\Admin\AppData\Local\Coursier\Cache\v1\https\repo1.maven.org\maven2\com\github\scopt\scopt_2.13\3.7.1\scopt_2.13-3.7.1-sources.jar
+2025.08.10 14:02:09 WARN  unexpected dependency: C:\Users\Admin\AppData\Local\Coursier\Cache\v1\https\repo1.maven.org\maven2\net\jcazevedo\moultingyaml_2.13\0.4.2\moultingyaml_2.13-0.4.2-sources.jar
+2025.08.10 14:02:09 WARN  unexpected dependency: C:\Users\Admin\AppData\Local\Coursier\Cache\v1\https\repo1.maven.org\maven2\org\json4s\json4s-native_2.13\3.6.12\json4s-native_2.13-3.6.12-sources.jar
+2025.08.10 14:02:09 WARN  unexpected dependency: C:\Users\Admin\AppData\Local\Coursier\Cache\v1\https\repo1.maven.org\maven2\org\apache\commons\commons-text\1.9\commons-text-1.9-sources.jar
+2025.08.10 14:02:09 WARN  unexpected dependency: C:\Users\Admin\AppData\Local\Coursier\Cache\v1\https\repo1.maven.org\maven2\io\github\alexarchambault\data-class_2.13\0.2.5\data-class_2.13-0.2.5-sources.jar
+2025.08.10 14:02:09 WARN  unexpected dependency: C:\Users\Admin\AppData\Local\Coursier\Cache\v1\https\repo1.maven.org\maven2\org\scala-lang\modules\scala-parallel-collections_2.13\1.0.4\scala-parallel-collections_2.13-1.0.4-sources.jar
+2025.08.10 14:02:09 WARN  unexpected dependency: C:\Users\Admin\AppData\Local\Coursier\Cache\v1\https\repo1.maven.org\maven2\com\github\nscala-time\nscala-time_2.13\2.22.0\nscala-time_2.13-2.22.0-sources.jar
+2025.08.10 14:02:09 WARN  unexpected dependency: C:\Users\Admin\AppData\Local\Coursier\Cache\v1\https\repo1.maven.org\maven2\org\yaml\snakeyaml\1.26\snakeyaml-1.26-sources.jar
+2025.08.10 14:02:09 WARN  unexpected dependency: C:\Users\Admin\AppData\Local\Coursier\Cache\v1\https\repo1.maven.org\maven2\org\json4s\json4s-core_2.13\3.6.12\json4s-core_2.13-3.6.12-sources.jar
+2025.08.10 14:02:09 WARN  unexpected dependency: C:\Users\Admin\AppData\Local\Coursier\Cache\v1\https\repo1.maven.org\maven2\org\apache\commons\commons-lang3\3.11\commons-lang3-3.11-sources.jar
+2025.08.10 14:02:09 WARN  unexpected dependency: C:\Users\Admin\AppData\Local\Coursier\Cache\v1\https\repo1.maven.org\maven2\joda-time\joda-time\2.10.1\joda-time-2.10.1-sources.jar
+2025.08.10 14:02:09 WARN  unexpected dependency: C:\Users\Admin\AppData\Local\Coursier\Cache\v1\https\repo1.maven.org\maven2\org\joda\joda-convert\2.2.0\joda-convert-2.2.0-sources.jar
+2025.08.10 14:02:09 WARN  unexpected dependency: C:\Users\Admin\AppData\Local\Coursier\Cache\v1\https\repo1.maven.org\maven2\org\json4s\json4s-ast_2.13\3.6.12\json4s-ast_2.13-3.6.12-sources.jar
+2025.08.10 14:02:09 WARN  unexpected dependency: C:\Users\Admin\AppData\Local\Coursier\Cache\v1\https\repo1.maven.org\maven2\org\json4s\json4s-scalap_2.13\3.6.12\json4s-scalap_2.13-3.6.12-sources.jar
+2025.08.10 14:02:09 WARN  unexpected dependency: C:\Users\Admin\AppData\Local\Coursier\Cache\v1\https\repo1.maven.org\maven2\com\thoughtworks\paranamer\paranamer\2.8\paranamer-2.8-sources.jar
+2025.08.10 14:02:09 WARN  unexpected dependency: C:\Users\Admin\AppData\Local\Coursier\Cache\v1\https\repo1.maven.org\maven2\edu\berkeley\cs\chisel3_2.13\3.5.6\chisel3_2.13-3.5.6-sources.jar
+2025.08.10 14:02:09 WARN  unexpected dependency: C:\Users\Admin\AppData\Local\Coursier\Cache\v1\https\repo1.maven.org\maven2\edu\berkeley\cs\chiseltest_2.13\0.5.6\chiseltest_2.13-0.5.6-sources.jar
+2025.08.10 14:02:09 WARN  unexpected dependency: C:\Users\Admin\AppData\Local\Coursier\Cache\v1\https\repo1.maven.org\maven2\org\scalatest\scalatest_2.13\3.2.0\scalatest_2.13-3.2.0-sources.jar
+2025.08.10 14:02:09 WARN  unexpected dependency: C:\Users\Admin\AppData\Local\Coursier\Cache\v1\https\repo1.maven.org\maven2\edu\berkeley\cs\chisel3-macros_2.13\3.5.6\chisel3-macros_2.13-3.5.6-sources.jar
+2025.08.10 14:02:09 WARN  unexpected dependency: C:\Users\Admin\AppData\Local\Coursier\Cache\v1\https\repo1.maven.org\maven2\edu\berkeley\cs\chisel3-core_2.13\3.5.6\chisel3-core_2.13-3.5.6-sources.jar
+2025.08.10 14:02:09 WARN  unexpected dependency: C:\Users\Admin\AppData\Local\Coursier\Cache\v1\https\repo1.maven.org\maven2\edu\berkeley\cs\treadle_2.13\1.5.6\treadle_2.13-1.5.6-sources.jar
+2025.08.10 14:02:09 WARN  unexpected dependency: C:\Users\Admin\AppData\Local\Coursier\Cache\v1\https\repo1.maven.org\maven2\com\lihaoyi\utest_2.13\0.7.9\utest_2.13-0.7.9-sources.jar
+2025.08.10 14:02:09 WARN  unexpected dependency: C:\Users\Admin\AppData\Local\Coursier\Cache\v1\https\repo1.maven.org\maven2\net\java\dev\jna\jna\5.10.0\jna-5.10.0-sources.jar
+2025.08.10 14:02:09 WARN  unexpected dependency: C:\Users\Admin\AppData\Local\Coursier\Cache\v1\https\repo1.maven.org\maven2\org\scalatest\scalatest-core_2.13\3.2.0\scalatest-core_2.13-3.2.0-sources.jar
+2025.08.10 14:02:09 WARN  unexpected dependency: C:\Users\Admin\AppData\Local\Coursier\Cache\v1\https\repo1.maven.org\maven2\org\scalatest\scalatest-featurespec_2.13\3.2.0\scalatest-featurespec_2.13-3.2.0-sources.jar
+2025.08.10 14:02:09 WARN  unexpected dependency: C:\Users\Admin\AppData\Local\Coursier\Cache\v1\https\repo1.maven.org\maven2\org\scalatest\scalatest-flatspec_2.13\3.2.0\scalatest-flatspec_2.13-3.2.0-sources.jar
+2025.08.10 14:02:09 WARN  unexpected dependency: C:\Users\Admin\AppData\Local\Coursier\Cache\v1\https\repo1.maven.org\maven2\org\scalatest\scalatest-freespec_2.13\3.2.0\scalatest-freespec_2.13-3.2.0-sources.jar
+2025.08.10 14:02:09 WARN  unexpected dependency: C:\Users\Admin\AppData\Local\Coursier\Cache\v1\https\repo1.maven.org\maven2\org\scalatest\scalatest-funsuite_2.13\3.2.0\scalatest-funsuite_2.13-3.2.0-sources.jar
+2025.08.10 14:02:09 WARN  unexpected dependency: C:\Users\Admin\AppData\Local\Coursier\Cache\v1\https\repo1.maven.org\maven2\org\scalatest\scalatest-funspec_2.13\3.2.0\scalatest-funspec_2.13-3.2.0-sources.jar
+2025.08.10 14:02:09 WARN  unexpected dependency: C:\Users\Admin\AppData\Local\Coursier\Cache\v1\https\repo1.maven.org\maven2\org\scalatest\scalatest-propspec_2.13\3.2.0\scalatest-propspec_2.13-3.2.0-sources.jar
+2025.08.10 14:02:09 WARN  unexpected dependency: C:\Users\Admin\AppData\Local\Coursier\Cache\v1\https\repo1.maven.org\maven2\org\scalatest\scalatest-refspec_2.13\3.2.0\scalatest-refspec_2.13-3.2.0-sources.jar
+2025.08.10 14:02:09 WARN  unexpected dependency: C:\Users\Admin\AppData\Local\Coursier\Cache\v1\https\repo1.maven.org\maven2\org\scalatest\scalatest-wordspec_2.13\3.2.0\scalatest-wordspec_2.13-3.2.0-sources.jar
+2025.08.10 14:02:09 WARN  unexpected dependency: C:\Users\Admin\AppData\Local\Coursier\Cache\v1\https\repo1.maven.org\maven2\org\scalatest\scalatest-diagrams_2.13\3.2.0\scalatest-diagrams_2.13-3.2.0-sources.jar
+2025.08.10 14:02:09 WARN  unexpected dependency: C:\Users\Admin\AppData\Local\Coursier\Cache\v1\https\repo1.maven.org\maven2\org\scalatest\scalatest-matchers-core_2.13\3.2.0\scalatest-matchers-core_2.13-3.2.0-sources.jar
+2025.08.10 14:02:09 WARN  unexpected dependency: C:\Users\Admin\AppData\Local\Coursier\Cache\v1\https\repo1.maven.org\maven2\org\scalatest\scalatest-shouldmatchers_2.13\3.2.0\scalatest-shouldmatchers_2.13-3.2.0-sources.jar
+2025.08.10 14:02:09 WARN  unexpected dependency: C:\Users\Admin\AppData\Local\Coursier\Cache\v1\https\repo1.maven.org\maven2\org\scalatest\scalatest-mustmatchers_2.13\3.2.0\scalatest-mustmatchers_2.13-3.2.0-sources.jar
+2025.08.10 14:02:09 WARN  unexpected dependency: C:\Users\Admin\AppData\Local\Coursier\Cache\v1\https\repo1.maven.org\maven2\edu\berkeley\cs\firrtl_2.13\1.5.6\firrtl_2.13-1.5.6-sources.jar
+2025.08.10 14:02:09 WARN  unexpected dependency: C:\Users\Admin\AppData\Local\Coursier\Cache\v1\https\repo1.maven.org\maven2\org\scala-lang\modules\scala-jline\2.12.1\scala-jline-2.12.1-sources.jar
+2025.08.10 14:02:11 WARN  unexpected dependency: C:\Users\Admin\AppData\Local\Coursier\Cache\v1\https\repo1.maven.org\maven2\org\portable-scala\portable-scala-reflect_2.13\0.1.1\portable-scala-reflect_2.13-0.1.1-sources.jar
+2025.08.10 14:02:11 WARN  unexpected dependency: C:\Users\Admin\AppData\Local\Coursier\Cache\v1\https\repo1.maven.org\maven2\org\scalatest\scalatest-compatible\3.2.0\scalatest-compatible-3.2.0-sources.jar
+2025.08.10 14:02:11 WARN  unexpected dependency: C:\Users\Admin\AppData\Local\Coursier\Cache\v1\https\repo1.maven.org\maven2\org\scalactic\scalactic_2.13\3.2.0\scalactic_2.13-3.2.0-sources.jar
+2025.08.10 14:02:11 WARN  unexpected dependency: C:\Users\Admin\AppData\Local\Coursier\Cache\v1\https\repo1.maven.org\maven2\org\scala-lang\modules\scala-xml_2.13\1.2.0\scala-xml_2.13-1.2.0-sources.jar
+2025.08.10 14:02:11 WARN  unexpected dependency: C:\Users\Admin\AppData\Local\Coursier\Cache\v1\https\repo1.maven.org\maven2\org\fusesource\jansi\jansi\1.11\jansi-1.11-sources.jar
+2025.08.10 14:02:11 WARN  unexpected dependency: C:\Users\Admin\AppData\Local\Coursier\Cache\v1\https\repo1.maven.org\maven2\edu\berkeley\cs\chisel3_2.13\3.5.5\chisel3_2.13-3.5.5-sources.jar
+2025.08.10 14:02:11 WARN  unexpected dependency: C:\Users\Admin\AppData\Local\Coursier\Cache\v1\https\repo1.maven.org\maven2\edu\berkeley\cs\chisel3-macros_2.13\3.5.5\chisel3-macros_2.13-3.5.5-sources.jar
+2025.08.10 14:02:11 WARN  unexpected dependency: C:\Users\Admin\AppData\Local\Coursier\Cache\v1\https\repo1.maven.org\maven2\edu\berkeley\cs\chisel3-core_2.13\3.5.5\chisel3-core_2.13-3.5.5-sources.jar
+2025.08.10 14:02:11 WARN  unexpected dependency: C:\Users\Admin\AppData\Local\Coursier\Cache\v1\https\repo1.maven.org\maven2\edu\berkeley\cs\firrtl_2.13\1.5.5\firrtl_2.13-1.5.5-sources.jar
+2025.08.10 14:02:11 INFO  time: indexed workspace in 14s
+2025.08.10 14:02:12 WARN  Bloop is running with 17.0.15 but your code requires 21.0.8 to compile, this might cause some compilation issues when using JDK API unsupported by the Bloop's current JVM version
+2025.08.10 14:02:12 INFO  compiling root (2 scala sources)
+2025.08.10 14:02:12 INFO  Non-compiled module 'compiler-bridge_2.13' for Scala 2.13.8. Compiling...
+2025.08.10 14:02:36 INFO  Compilation completed in 23.574s.
+2025.08.10 14:02:46 WARN  Bloop is running with 17.0.15 but your code requires 21.0.8 to compile, this might cause some compilation issues when using JDK API unsupported by the Bloop's current JVM version
+2025.08.10 14:02:46 INFO  compiling root-test (1 scala source)
+2025.08.10 14:02:47 INFO  time: compiled root in 34s
+2025.08.10 14:02:51 INFO  time: compiled root-test in 5.5s
+Aug 10, 2025 2:13:21 PM org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint notify
+INFO: Unsupported notification method: $/setTrace
+2025.08.10 14:15:32 INFO  Shutting down server
+2025.08.10 14:15:32 INFO  shutting down Metals
+2025.08.10 14:15:32 INFO  Shut down connection with build server.
+2025.08.10 14:15:32 INFO  Exiting server
